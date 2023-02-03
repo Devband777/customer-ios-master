@@ -1,0 +1,1768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A043906234BD276006ADE3F /* RTSpinKitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A043904234BD275006ADE3F /* RTSpinKitView.h */; };
+		0A043907234BD276006ADE3F /* RTSpinKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A043905234BD276006ADE3F /* RTSpinKitView.m */; };
+		0A04390A234BD2AA006ADE3F /* RTSpinKitThreeBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A043908234BD2AA006ADE3F /* RTSpinKitThreeBounceAnimation.m */; };
+		0A04390B234BD2AA006ADE3F /* RTSpinKitThreeBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A043909234BD2AA006ADE3F /* RTSpinKitThreeBounceAnimation.h */; };
+		0A04390E234BD398006ADE3F /* RTSpinKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A04390C234BD397006ADE3F /* RTSpinKitUtils.m */; };
+		0A04390F234BD398006ADE3F /* RTSpinKitUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A04390D234BD398006ADE3F /* RTSpinKitUtils.h */; };
+		0A043911234BD3CA006ADE3F /* RTSpinKitAnimating.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A043910234BD3CA006ADE3F /* RTSpinKitAnimating.h */; };
+		12AD2A7524D32AA4005E562E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12AD2A7424D32AA4005E562E /* Images.xcassets */; };
+		624D7CBD1F7876440039BE90 /* KUSNavigationBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 624D7CBB1F7876440039BE90 /* KUSNavigationBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624D7CBE1F7876440039BE90 /* KUSNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 624D7CBC1F7876440039BE90 /* KUSNavigationBarView.m */; };
+		63006E571F92F8AC00C2BC9D /* KUSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 63006E561F92F8AC00C2BC9D /* KUSLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		630236C91FD84107008B4EA8 /* KUSUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 630236C71FD84107008B4EA8 /* KUSUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		630236CA1FD84107008B4EA8 /* KUSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 630236C81FD84107008B4EA8 /* KUSUserDefaults.m */; };
+		63035BD91F2EBCD400FBBF66 /* KUSText.h in Headers */ = {isa = PBXBuildFile; fileRef = 63035BD71F2EBCD400FBBF66 /* KUSText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63035BDA1F2EBCD400FBBF66 /* KUSText.m in Sources */ = {isa = PBXBuildFile; fileRef = 63035BD81F2EBCD400FBBF66 /* KUSText.m */; };
+		630BA33E2030040400C80CD2 /* KUSClientActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 630BA33C2030040400C80CD2 /* KUSClientActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		630BA33F2030040400C80CD2 /* KUSClientActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 630BA33D2030040400C80CD2 /* KUSClientActivity.m */; };
+		630BA341203005F500C80CD2 /* KUSClientActivityTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 630BA340203005F500C80CD2 /* KUSClientActivityTest.m */; };
+		630BA344203101C700C80CD2 /* KUSClientActivityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 630BA342203101C700C80CD2 /* KUSClientActivityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		630BA345203101C700C80CD2 /* KUSClientActivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 630BA343203101C700C80CD2 /* KUSClientActivityManager.m */; };
+		630BA348203107CF00C80CD2 /* KUSClientActivityDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 630BA346203107CF00C80CD2 /* KUSClientActivityDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		630BA349203107CF00C80CD2 /* KUSClientActivityDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 630BA347203107CF00C80CD2 /* KUSClientActivityDataSource.m */; };
+		631E3F351F52497A00FAA33F /* KUSEmailInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 631E3F331F52497A00FAA33F /* KUSEmailInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631E3F361F52497A00FAA33F /* KUSEmailInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E3F341F52497A00FAA33F /* KUSEmailInputView.m */; };
+		631E3F3B1F526C6000FAA33F /* KnowledgeBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 631E3F391F526C6000FAA33F /* KnowledgeBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631E3F3C1F526C6000FAA33F /* KnowledgeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E3F3A1F526C6000FAA33F /* KnowledgeBaseViewController.m */; };
+		632665DD1F945DB800ED1AB2 /* KUSSessionsTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 632665DB1F945DB800ED1AB2 /* KUSSessionsTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632665DE1F945DB800ED1AB2 /* KUSSessionsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 632665DC1F945DB800ED1AB2 /* KUSSessionsTableView.m */; };
+		632665E11F945DC700ED1AB2 /* KUSChatTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 632665DF1F945DC700ED1AB2 /* KUSChatTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632665E21F945DC700ED1AB2 /* KUSChatTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 632665E01F945DC700ED1AB2 /* KUSChatTableView.m */; };
+		63270E951F4A1FA200E25BF5 /* KUSPushClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 63270E931F4A1FA200E25BF5 /* KUSPushClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63270E961F4A1FA200E25BF5 /* KUSPushClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 63270E941F4A1FA200E25BF5 /* KUSPushClient.m */; };
+		63270E991F4A717600E25BF5 /* KUSDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 63270E971F4A717600E25BF5 /* KUSDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63270E9A1F4A717600E25BF5 /* KUSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63270E981F4A717600E25BF5 /* KUSDate.m */; };
+		632EA5CD1FF70CD400C4681C /* KUSOptionPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 632EA5CB1FF70CD400C4681C /* KUSOptionPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632EA5CE1FF70CD400C4681C /* KUSOptionPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 632EA5CC1FF70CD400C4681C /* KUSOptionPickerView.m */; };
+		632EA5D11FF8168700C4681C /* KUSImageAttachmentCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 632EA5CF1FF8168700C4681C /* KUSImageAttachmentCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632EA5D21FF8168700C4681C /* KUSImageAttachmentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 632EA5D01FF8168700C4681C /* KUSImageAttachmentCollectionViewCell.m */; };
+		632EA5D51FF82A5900C4681C /* KUSNYTImagePhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 632EA5D31FF82A5900C4681C /* KUSNYTImagePhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632EA5D61FF82A5900C4681C /* KUSNYTImagePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 632EA5D41FF82A5900C4681C /* KUSNYTImagePhoto.m */; };
+		632EA5D91FF8952500C4681C /* KUSFadingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 632EA5D71FF8952500C4681C /* KUSFadingButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632EA5DA1FF8952500C4681C /* KUSFadingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 632EA5D81FF8952500C4681C /* KUSFadingButton.m */; };
+		6334BE2A1F0C3E8600258DAF /* KUSModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6334BE281F0C3E8600258DAF /* KUSModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6334BE2B1F0C3E8600258DAF /* KUSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334BE291F0C3E8600258DAF /* KUSModel.m */; };
+		6334BE2E1F0C43BE00258DAF /* KUSTrackingToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 6334BE2C1F0C43BE00258DAF /* KUSTrackingToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6334BE2F1F0C43BE00258DAF /* KUSTrackingToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334BE2D1F0C43BE00258DAF /* KUSTrackingToken.m */; };
+		6334BE321F0C487400258DAF /* KUSChatSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 6334BE301F0C487300258DAF /* KUSChatSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6334BE331F0C487400258DAF /* KUSChatSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334BE311F0C487400258DAF /* KUSChatSettings.m */; };
+		6334BE361F0C4A1300258DAF /* KUSChatSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 6334BE341F0C4A1300258DAF /* KUSChatSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6334BE371F0C4A1300258DAF /* KUSChatSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334BE351F0C4A1300258DAF /* KUSChatSession.m */; };
+		6334BE3A1F0C4B3D00258DAF /* KUSChatMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6334BE381F0C4B3D00258DAF /* KUSChatMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6334BE3B1F0C4B3D00258DAF /* KUSChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334BE391F0C4B3D00258DAF /* KUSChatMessage.m */; };
+		6334BE3E1F0C4EBE00258DAF /* KUSCustomer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6334BE3C1F0C4EBE00258DAF /* KUSCustomer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6334BE3F1F0C4EBE00258DAF /* KUSCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334BE3D1F0C4EBE00258DAF /* KUSCustomer.m */; };
+		6334BE491F0C5E3F00258DAF /* KUSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6334BE471F0C5E3F00258DAF /* KUSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6334BE4A1F0C5E3F00258DAF /* KUSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334BE481F0C5E3F00258DAF /* KUSNavigationController.m */; };
+		6334BE4D1F0C600F00258DAF /* KUSAttributionToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6334BE4B1F0C600F00258DAF /* KUSAttributionToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6334BE4E1F0C600F00258DAF /* KUSAttributionToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334BE4C1F0C600F00258DAF /* KUSAttributionToolbar.m */; };
+		6334BE541F0C66E200258DAF /* KUSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6334BE521F0C66E200258DAF /* KUSImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6334BE551F0C66E200258DAF /* KUSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334BE531F0C66E200258DAF /* KUSImage.m */; };
+		6334BE601F0C9B5100258DAF /* KUSPaginatedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6334BE5E1F0C9B5100258DAF /* KUSPaginatedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6334BE611F0C9B5100258DAF /* KUSPaginatedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6334BE5F1F0C9B5100258DAF /* KUSPaginatedResponse.m */; };
+		633D8FDE1F22EDB800BAFAC9 /* KUSInputBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 633D8FDC1F22EDB800BAFAC9 /* KUSInputBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633D8FDF1F22EDB800BAFAC9 /* KUSInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D8FDD1F22EDB800BAFAC9 /* KUSInputBar.m */; };
+		633D8FE21F2309E700BAFAC9 /* KUSChatSessionTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 633D8FE01F2309E700BAFAC9 /* KUSChatSessionTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633D8FE31F2309E700BAFAC9 /* KUSChatSessionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D8FE11F2309E700BAFAC9 /* KUSChatSessionTableViewCell.m */; };
+		633D8FE61F239F9500BAFAC9 /* KUSChatPlaceholderTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 633D8FE41F239F9500BAFAC9 /* KUSChatPlaceholderTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633D8FE71F239F9500BAFAC9 /* KUSChatPlaceholderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D8FE51F239F9500BAFAC9 /* KUSChatPlaceholderTableViewCell.m */; };
+		633D8FED1F23C98200BAFAC9 /* KUSPaginatedDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 633D8FEB1F23C98200BAFAC9 /* KUSPaginatedDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633D8FEE1F23C98200BAFAC9 /* KUSPaginatedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D8FEC1F23C98200BAFAC9 /* KUSPaginatedDataSource.m */; };
+		633D8FF21F23E07E00BAFAC9 /* KUSChatSessionsDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 633D8FF01F23E07E00BAFAC9 /* KUSChatSessionsDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633D8FF31F23E07E00BAFAC9 /* KUSChatSessionsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D8FF11F23E07E00BAFAC9 /* KUSChatSessionsDataSource.m */; };
+		633FADBC1F258C2E0060B4A6 /* KUSChatMessagesDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 633FADBA1F258C2E0060B4A6 /* KUSChatMessagesDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633FADBD1F258C2E0060B4A6 /* KUSChatMessagesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 633FADBB1F258C2E0060B4A6 /* KUSChatMessagesDataSource.m */; };
+		633FADC41F26E7630060B4A6 /* KUSTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 633FADC21F26E7630060B4A6 /* KUSTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633FADC51F26E7630060B4A6 /* KUSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 633FADC31F26E7630060B4A6 /* KUSTextView.m */; };
+		636531A11F1BBA7C00433A50 /* KUSSessionsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6365319F1F1BBA7C00433A50 /* KUSSessionsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636531A21F1BBA7C00433A50 /* KUSSessionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636531A01F1BBA7C00433A50 /* KUSSessionsViewController.m */; };
+		636531A51F1BBAA100433A50 /* KustomerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 636531A31F1BBAA100433A50 /* KustomerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636531A61F1BBAA100433A50 /* KustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636531A41F1BBAA100433A50 /* KustomerViewController.m */; };
+		636531A91F1BBCCD00433A50 /* KUSChatViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 636531A71F1BBCCD00433A50 /* KUSChatViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636531AA1F1BBCCD00433A50 /* KUSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636531A81F1BBCCD00433A50 /* KUSChatViewController.m */; };
+		636531B21F1C593D00433A50 /* KUSChatMessageTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 636531B01F1C593D00433A50 /* KUSChatMessageTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636531B31F1C593D00433A50 /* KUSChatMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 636531B11F1C593D00433A50 /* KUSChatMessageTableViewCell.m */; };
+		636531B61F1DB73B00433A50 /* KUSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 636531B41F1DB73B00433A50 /* KUSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636531B71F1DB73B00433A50 /* KUSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 636531B51F1DB73B00433A50 /* KUSColor.m */; };
+		636EA6271F9CF76100340B66 /* KUSRequestManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EA6261F9CF76100340B66 /* KUSRequestManagerTests.m */; };
+		636EA62A1F9D12BE00340B66 /* KUSDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EA6291F9D12BE00340B66 /* KUSDateTests.m */; };
+		636EA62C1F9D309C00340B66 /* KUSChatMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EA62B1F9D309C00340B66 /* KUSChatMessageTests.m */; };
+		636EA62E1F9D3EC100340B66 /* KUSUserSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EA62D1F9D3EC100340B66 /* KUSUserSessionTests.m */; };
+		636EA6301F9D4FD100340B66 /* KUSDelegateProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EA62F1F9D4FD100340B66 /* KUSDelegateProxyTests.m */; };
+		636F75F61FDD89A30043B821 /* KUSChatAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 636F75F41FDD89A30043B821 /* KUSChatAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636F75F71FDD89A30043B821 /* KUSChatAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F75F51FDD89A30043B821 /* KUSChatAttachment.m */; };
+		6371779D1F43EDDC00A7F79C /* KUSAvatarImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6371779B1F43EDDC00A7F79C /* KUSAvatarImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6371779E1F43EDDC00A7F79C /* KUSAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6371779C1F43EDDC00A7F79C /* KUSAvatarImageView.m */; };
+		637177A91F46A0DA00A7F79C /* KUSUserDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 637177A71F46A0DA00A7F79C /* KUSUserDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		637177AA1F46A0DA00A7F79C /* KUSUserDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 637177A81F46A0DA00A7F79C /* KUSUserDataSource.m */; };
+		637177AD1F46A28300A7F79C /* KUSUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 637177AB1F46A28300A7F79C /* KUSUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		637177AE1F46A28300A7F79C /* KUSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 637177AC1F46A28300A7F79C /* KUSUser.m */; };
+		6394DFF91FA57C21006F2899 /* KUSCustomerDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 6394DFF71FA57C21006F2899 /* KUSCustomerDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6394DFFA1FA57C21006F2899 /* KUSCustomerDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6394DFF81FA57C21006F2899 /* KUSCustomerDescription.m */; };
+		6398E04F1FC2316F00001050 /* KUSChatSettingsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398E04E1FC2316F00001050 /* KUSChatSettingsTest.m */; };
+		639FBBBD1F5F98110065AB0B /* KUSNewSessionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 639FBBBB1F5F98110065AB0B /* KUSNewSessionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		639FBBBE1F5F98110065AB0B /* KUSNewSessionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 639FBBBC1F5F98110065AB0B /* KUSNewSessionButton.m */; };
+		63A4EDD71F097D8F00EA3852 /* Kustomer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A4EDD61F097D8F00EA3852 /* Kustomer_Private.h */; };
+		63B9CD9B1F088E8800120F3E /* Kustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B9CD911F088E8800120F3E /* Kustomer.framework */; };
+		63B9CDA01F088E8800120F3E /* KustomerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9CD9F1F088E8800120F3E /* KustomerTests.m */; };
+		63B9CDB21F0890B400120F3E /* Kustomer.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B9CDB01F0890B400120F3E /* Kustomer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63B9CDB31F0890B400120F3E /* Kustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9CDB11F0890B400120F3E /* Kustomer.m */; };
+		63B9CDBC1F089BF000120F3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9CDBB1F089BF000120F3E /* main.m */; };
+		63B9CDBF1F089BF000120F3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9CDBE1F089BF000120F3E /* AppDelegate.m */; };
+		63B9CDC21F089BF000120F3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9CDC11F089BF000120F3E /* ViewController.m */; };
+		63B9CDC71F089BF000120F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B9CDC61F089BF000120F3E /* Assets.xcassets */; };
+		63B9CDCA1F089BF000120F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B9CDC81F089BF000120F3E /* LaunchScreen.storyboard */; };
+		63B9CDDE1F095AA200120F3E /* Kustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B9CD911F088E8800120F3E /* Kustomer.framework */; };
+		63B9CDDF1F095AA200120F3E /* Kustomer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63B9CD911F088E8800120F3E /* Kustomer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63BF9C651FE9564300E30C73 /* KUSForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BF9C631FE9564200E30C73 /* KUSForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63BF9C661FE9564300E30C73 /* KUSForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF9C641FE9564200E30C73 /* KUSForm.m */; };
+		63BF9C691FE9565200E30C73 /* KUSFormQuestion.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BF9C671FE9565200E30C73 /* KUSFormQuestion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63BF9C6A1FE9565200E30C73 /* KUSFormQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF9C681FE9565200E30C73 /* KUSFormQuestion.m */; };
+		63BF9C6D1FE95DCA00E30C73 /* KUSTeam.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BF9C6B1FE95DCA00E30C73 /* KUSTeam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63BF9C6E1FE95DCA00E30C73 /* KUSTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF9C6C1FE95DCA00E30C73 /* KUSTeam.m */; };
+		63BF9C711FEB57B400E30C73 /* KUSFormDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BF9C6F1FEB57B400E30C73 /* KUSFormDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63BF9C721FEB57B400E30C73 /* KUSFormDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF9C701FEB57B400E30C73 /* KUSFormDataSource.m */; };
+		63BF9C751FEB5C3900E30C73 /* KUSTeamsDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BF9C731FEB5C3900E30C73 /* KUSTeamsDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63BF9C761FEB5C3900E30C73 /* KUSTeamsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF9C741FEB5C3900E30C73 /* KUSTeamsDataSource.m */; };
+		63C7626B203E71BD00A12BDD /* KUSTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C76269203E71BD00A12BDD /* KUSTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C7626C203E71BD00A12BDD /* KUSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C7626A203E71BD00A12BDD /* KUSTimer.m */; };
+		63D472911F70AACC00C947F2 /* KUSNotificationWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D4728F1F70AACC00C947F2 /* KUSNotificationWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D472921F70AACC00C947F2 /* KUSNotificationWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D472901F70AACC00C947F2 /* KUSNotificationWindow.m */; };
+		63D472951F71561100C947F2 /* KUSDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D472931F71561100C947F2 /* KUSDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D472961F71561100C947F2 /* KUSDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D472941F71561100C947F2 /* KUSDelegateProxy.m */; };
+		63D529881FB7F0A500B1B004 /* KUSPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D529861FB7F0A500B1B004 /* KUSPermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D529891FB7F0A500B1B004 /* KUSPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D529871FB7F0A500B1B004 /* KUSPermissions.m */; };
+		63D9C17D1F2F705100999183 /* KUSChatSettingsDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D9C17B1F2F705100999183 /* KUSChatSettingsDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D9C17E1F2F705100999183 /* KUSChatSettingsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9C17C1F2F705100999183 /* KUSChatSettingsDataSource.m */; };
+		63D9C18B1F31761B00999183 /* KUSBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D9C1891F31761B00999183 /* KUSBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D9C18C1F31761B00999183 /* KUSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9C18A1F31761B00999183 /* KUSBaseViewController.m */; };
+		63DC734D1F5336BA00683DE8 /* KUSNYTChatMessagePhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DC734B1F5336BA00683DE8 /* KUSNYTChatMessagePhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63DC734E1F5336BA00683DE8 /* KUSNYTChatMessagePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DC734C1F5336BA00683DE8 /* KUSNYTChatMessagePhoto.m */; };
+		63DC735F1F57B1AC00683DE8 /* KUSAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DC735D1F57B1AC00683DE8 /* KUSAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63DC73601F57B1AC00683DE8 /* KUSAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DC735E1F57B1AC00683DE8 /* KUSAudio.m */; };
+		63DC73621F57B44900683DE8 /* message_received.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 63DC73611F57B44900683DE8 /* message_received.m4a */; };
+		63EB38541F2D83430020F38B /* KUSObjectDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EB38521F2D83430020F38B /* KUSObjectDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63EB38551F2D83430020F38B /* KUSObjectDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EB38531F2D83430020F38B /* KUSObjectDataSource.m */; };
+		63EB38571F2E1D880020F38B /* KUSObjectDataSource_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EB38561F2E1D880020F38B /* KUSObjectDataSource_Private.h */; };
+		63EDF3D11F412503000345D8 /* KUSUserSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EDF3CF1F412503000345D8 /* KUSUserSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63EDF3D21F412503000345D8 /* KUSUserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDF3D01F412503000345D8 /* KUSUserSession.m */; };
+		63EDF3D51F414A67000345D8 /* KUSRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EDF3D31F414A67000345D8 /* KUSRequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63EDF3D61F414A67000345D8 /* KUSRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDF3D41F414A67000345D8 /* KUSRequestManager.m */; };
+		63EDF3D91F415797000345D8 /* KUSTrackingTokenDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EDF3D71F415797000345D8 /* KUSTrackingTokenDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63EDF3DA1F415797000345D8 /* KUSTrackingTokenDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDF3D81F415797000345D8 /* KUSTrackingTokenDataSource.m */; };
+		63F61A791FF99D3100E56766 /* KUSUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F61A771FF99D3100E56766 /* KUSUpload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63F61A7A1FF99D3100E56766 /* KUSUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F61A781FF99D3100E56766 /* KUSUpload.m */; };
+		63F61A7D1FFAC86400E56766 /* KUSMultipleAvatarsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F61A7B1FFAC86400E56766 /* KUSMultipleAvatarsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63F61A7E1FFAC86400E56766 /* KUSMultipleAvatarsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F61A7C1FFAC86400E56766 /* KUSMultipleAvatarsView.m */; };
+		6D7CDE24CE12E0916484305C /* Pods_Kustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4074C2A1E9213757162ED660 /* Pods_Kustomer.framework */; };
+		7C3913946A295179BE2E925B /* Pods_KustomerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D624913E5C7AD4492EF0D39B /* Pods_KustomerTests.framework */; };
+		C702A328230D98470052EBB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9CDC11F089BF000120F3E /* ViewController.m */; };
+		C707369822527A4800F9E3BB /* KUSVolumeControlTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C707369722527A4800F9E3BB /* KUSVolumeControlTimerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C707369A22527A6E00F9E3BB /* KUSVolumeControlTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C707369922527A6E00F9E3BB /* KUSVolumeControlTimerManager.m */; };
+		C70A6ACE2212EC53004B4F9C /* KUSDescribeConversationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A6ACD2212EC53004B4F9C /* KUSDescribeConversationTests.m */; };
+		C714124E2265E5A300CD7C7A /* KUSEditFeedbackTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C714124D2265E5A300CD7C7A /* KUSEditFeedbackTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C71412502265E5CE00CD7C7A /* KUSEditFeedbackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C714124F2265E5CE00CD7C7A /* KUSEditFeedbackTableViewCell.m */; };
+		C730E14D20E5159D00EF2AB8 /* KUSEndChatButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = C730E14C20E5159D00EF2AB8 /* KUSEndChatButtonView.m */; };
+		C730E15320E5179200EF2AB8 /* KUSEndChatButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = C730E15220E5179200EF2AB8 /* KUSEndChatButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C751A4A12269F77E00D0F08C /* KUSSatisfactionResponse_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C751A4A02269F77E00D0F08C /* KUSSatisfactionResponse_Private.h */; };
+		C755F4A82258D8E000613F17 /* KUSTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C755F4A72258D8E000613F17 /* KUSTimerTests.m */; };
+		C75D3D832271836C00AAB0D7 /* KUSChatMessagesDataSource_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C75D3D822271836C00AAB0D7 /* KUSChatMessagesDataSource_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C77880FB216CDBAC006375BC /* KUSMLFormValuesPickerCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C77880F9216CDBAC006375BC /* KUSMLFormValuesPickerCollectionViewCell.h */; };
+		C77880FC216CDBAC006375BC /* KUSMLFormValuesPickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C77880FA216CDBAC006375BC /* KUSMLFormValuesPickerCollectionViewCell.m */; };
+		C77880FF216CDBCC006375BC /* KUSMLFormValuesPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C77880FD216CDBCC006375BC /* KUSMLFormValuesPickerView.h */; };
+		C7788100216CDBCC006375BC /* KUSMLFormValuesPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C77880FE216CDBCC006375BC /* KUSMLFormValuesPickerView.m */; };
+		C7788105216CDBED006375BC /* KUSMLFormValue.h in Headers */ = {isa = PBXBuildFile; fileRef = C7788101216CDBED006375BC /* KUSMLFormValue.h */; };
+		C7788106216CDBED006375BC /* KUSMLFormValue.m in Sources */ = {isa = PBXBuildFile; fileRef = C7788102216CDBED006375BC /* KUSMLFormValue.m */; };
+		C7788107216CDBED006375BC /* KUSMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C7788103216CDBED006375BC /* KUSMLNode.h */; };
+		C7788108216CDBED006375BC /* KUSMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C7788104216CDBED006375BC /* KUSMLNode.m */; };
+		C77A3234225B67F100187C70 /* KUSVCTimerManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C77A3233225B67F100187C70 /* KUSVCTimerManagerTests.m */; };
+		C78406F7225F8E7F003BDE6D /* KUSSatisfactionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C78406F6225F8E7F003BDE6D /* KUSSatisfactionResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C78406F9225F8EA0003BDE6D /* KUSSatisfactionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C78406F8225F8EA0003BDE6D /* KUSSatisfactionResponse.m */; };
+		C78406FB225F989A003BDE6D /* KUSSatisfactionResponseDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C78406FA225F989A003BDE6D /* KUSSatisfactionResponseDataSource.m */; };
+		C787065C20EA3D2900D54AE2 /* KUSChatEndedTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C787065B20EA3D2900D54AE2 /* KUSChatEndedTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C787065E20EA3D7B00D54AE2 /* KUSChatEndedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C787065D20EA3D7B00D54AE2 /* KUSChatEndedTableViewCell.m */; };
+		C7C6006B225DDE4A00899FB1 /* KUSSatisfactionForm.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C6006A225DDE4A00899FB1 /* KUSSatisfactionForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C6006D225DE04B00899FB1 /* KUSSatisfactionForm.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C6006C225DE04B00899FB1 /* KUSSatisfactionForm.m */; };
+		C7C6006F225E034900899FB1 /* KUSSatisfactionResponseDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C6006E225E034900899FB1 /* KUSSatisfactionResponseDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C68498226067FD008E335D /* KUSSatisfactionFormTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C68497226067FD008E335D /* KUSSatisfactionFormTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C6849A22606853008E335D /* KUSSatisfactionFormTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C6849922606853008E335D /* KUSSatisfactionFormTableViewCell.m */; };
+		C7C6849C22608EDD008E335D /* KUSRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C6849B22608EDD008E335D /* KUSRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C6849E22608EF3008E335D /* KUSRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C6849D22608EF3008E335D /* KUSRatingView.m */; };
+		C7D98AA5227083270067DB7D /* KUSSatisfactionFormTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D98AA4227083270067DB7D /* KUSSatisfactionFormTest.m */; };
+		C7D98AA72270834E0067DB7D /* KUSSatisfactionResponseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D98AA62270834E0067DB7D /* KUSSatisfactionResponseTest.m */; };
+		C7FAC308224B5E3500D6D659 /* KUSReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FAC306224B5E3500D6D659 /* KUSReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7FAC309224B5E3500D6D659 /* KUSReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FAC307224B5E3500D6D659 /* KUSReachabilityManager.m */; };
+		C7FAC30C224B5FA300D6D659 /* KUSReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FAC30A224B5FA300D6D659 /* KUSReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7FAC30D224B5FA300D6D659 /* KUSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FAC30B224B5FA300D6D659 /* KUSReachability.m */; };
+		C7FAC30F224B631A00D6D659 /* KUSStatsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FAC30E224B631A00D6D659 /* KUSStatsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7FAC311224B633500D6D659 /* KUSStatsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FAC310224B633500D6D659 /* KUSStatsManager.m */; };
+		D6181AC920D92DB100CE7377 /* Strings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6181AC820D92DB100CE7377 /* Strings.bundle */; };
+		D61F927C2174D0B300C65B9F /* KUSScheduleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D61F927A2174D0B300C65B9F /* KUSScheduleDataSource.m */; };
+		D61F927F2174D94700C65B9F /* KUSSchedule.h in Headers */ = {isa = PBXBuildFile; fileRef = D61F927D2174D94700C65B9F /* KUSSchedule.h */; };
+		D61F92802174D94700C65B9F /* KUSSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = D61F927E2174D94700C65B9F /* KUSSchedule.m */; };
+		D61F92822174DF8700C65B9F /* KUSScheduleDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D61F92812174DF8600C65B9F /* KUSScheduleDataSource.h */; };
+		D61F92852174EF7200C65B9F /* KUSHoliday.h in Headers */ = {isa = PBXBuildFile; fileRef = D61F92832174EF7200C65B9F /* KUSHoliday.h */; };
+		D61F92862174EF7200C65B9F /* KUSHoliday.m in Sources */ = {isa = PBXBuildFile; fileRef = D61F92842174EF7200C65B9F /* KUSHoliday.m */; };
+		D62F3A2620C1353200FBEA61 /* KUSClosedChatView.h in Headers */ = {isa = PBXBuildFile; fileRef = D62F3A2420C1353200FBEA61 /* KUSClosedChatView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D62F3A2720C1353200FBEA61 /* KUSClosedChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62F3A2520C1353200FBEA61 /* KUSClosedChatView.m */; };
+		D64E3B202193058700774745 /* KUSSessionQueuePollingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D64E3B1E2193058700774745 /* KUSSessionQueuePollingManager.h */; };
+		D64E3B212193058700774745 /* KUSSessionQueuePollingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D64E3B1F2193058700774745 /* KUSSessionQueuePollingManager.m */; };
+		D6BB946120A18537001AFCB6 /* KUSLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = D6BB945F20A18537001AFCB6 /* KUSLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6BB946220A18537001AFCB6 /* KUSLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB946020A18537001AFCB6 /* KUSLocalization.m */; };
+		D6BB946620A1AA5F001AFCB6 /* KUSLocalizationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB946520A1AA5F001AFCB6 /* KUSLocalizationTest.m */; };
+		D6C236502191FC3A00F34CBE /* KUSSessionQueueDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C2364E2191FC3A00F34CBE /* KUSSessionQueueDataSource.h */; };
+		D6C236512191FC3A00F34CBE /* KUSSessionQueueDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2364F2191FC3A00F34CBE /* KUSSessionQueueDataSource.m */; };
+		D6C236542191FC7E00F34CBE /* KUSSessionQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C236522191FC7E00F34CBE /* KUSSessionQueue.h */; };
+		D6C236552191FC7E00F34CBE /* KUSSessionQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C236532191FC7E00F34CBE /* KUSSessionQueue.m */; };
+		D6DBA35E226711B200276475 /* KUSTypingIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DBA35C226711B200276475 /* KUSTypingIndicator.h */; };
+		D6DBA35F226711B200276475 /* KUSTypingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DBA35D226711B200276475 /* KUSTypingIndicator.m */; };
+		D6DBA3662267930300276475 /* KUSTypingIndicatorTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DBA3642267930300276475 /* KUSTypingIndicatorTableViewCell.h */; };
+		D6DBA3672267930300276475 /* KUSTypingIndicatorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DBA3652267930300276475 /* KUSTypingIndicatorTableViewCell.m */; };
+		D6FE45C92268A118002CF416 /* KUSTypingIndicatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FE45C82268A118002CF416 /* KUSTypingIndicatorTest.m */; };
+		DD66731023E230F4003600A7 /* KUSQLPreviewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DD66730E23E230F3003600A7 /* KUSQLPreviewItem.h */; };
+		DD66731123E230F4003600A7 /* KUSQLPreviewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DD66730F23E230F4003600A7 /* KUSQLPreviewItem.m */; };
+		DD66731623E23129003600A7 /* KUSAttachmentViewerNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = DD66731223E23128003600A7 /* KUSAttachmentViewerNavigationController.h */; };
+		DD66731723E23129003600A7 /* KUSAttachmentViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = DD66731323E23128003600A7 /* KUSAttachmentViewer.h */; };
+		DD66731823E23129003600A7 /* KUSAttachmentViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD66731423E23129003600A7 /* KUSAttachmentViewer.m */; };
+		DD66731923E23129003600A7 /* KUSAttachmentViewerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD66731523E23129003600A7 /* KUSAttachmentViewerNavigationController.m */; };
+		DDF6530E23E4B297004B4D5B /* KUSMediaAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF6530D23E4B297004B4D5B /* KUSMediaAttachment.h */; };
+		DDF6531023E4B2C6004B4D5B /* KUSMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF6530F23E4B2C6004B4D5B /* KUSMediaAttachment.m */; };
+		FC5BDC34DC026F04AE056627 /* Pods_KustomerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBA02B9E3111B375725C25D /* Pods_KustomerExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63B9CD9C1F088E8800120F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B9CD881F088E8800120F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B9CD901F088E8800120F3E;
+			remoteInfo = Kustomer;
+		};
+		63B9CDE01F095AA200120F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B9CD881F088E8800120F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B9CD901F088E8800120F3E;
+			remoteInfo = Kustomer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63B9CDE21F095AA200120F3E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63B9CDDF1F095AA200120F3E /* Kustomer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A043904234BD275006ADE3F /* RTSpinKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitView.h; sourceTree = "<group>"; };
+		0A043905234BD276006ADE3F /* RTSpinKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitView.m; sourceTree = "<group>"; };
+		0A043908234BD2AA006ADE3F /* RTSpinKitThreeBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitThreeBounceAnimation.m; sourceTree = "<group>"; };
+		0A043909234BD2AA006ADE3F /* RTSpinKitThreeBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitThreeBounceAnimation.h; sourceTree = "<group>"; };
+		0A04390C234BD397006ADE3F /* RTSpinKitUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitUtils.m; sourceTree = "<group>"; };
+		0A04390D234BD398006ADE3F /* RTSpinKitUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitUtils.h; sourceTree = "<group>"; };
+		0A043910234BD3CA006ADE3F /* RTSpinKitAnimating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitAnimating.h; sourceTree = "<group>"; };
+		12AD2A7424D32AA4005E562E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19AB306DD5AA4895D0C92102 /* Pods-Kustomer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kustomer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kustomer/Pods-Kustomer.debug.xcconfig"; sourceTree = "<group>"; };
+		4074C2A1E9213757162ED660 /* Pods_Kustomer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kustomer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		448086DB570B5537AB2DFA4E /* Pods-KustomerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KustomerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-KustomerExample/Pods-KustomerExample.release.xcconfig"; sourceTree = "<group>"; };
+		479720192A1054576AB58BBA /* Pods-KustomerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KustomerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KustomerExample/Pods-KustomerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		624D7CBB1F7876440039BE90 /* KUSNavigationBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSNavigationBarView.h; sourceTree = "<group>"; };
+		624D7CBC1F7876440039BE90 /* KUSNavigationBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSNavigationBarView.m; sourceTree = "<group>"; };
+		63006E561F92F8AC00C2BC9D /* KUSLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSLog.h; sourceTree = "<group>"; };
+		630236C71FD84107008B4EA8 /* KUSUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSUserDefaults.h; sourceTree = "<group>"; };
+		630236C81FD84107008B4EA8 /* KUSUserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSUserDefaults.m; sourceTree = "<group>"; };
+		63035BD71F2EBCD400FBBF66 /* KUSText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSText.h; sourceTree = "<group>"; };
+		63035BD81F2EBCD400FBBF66 /* KUSText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSText.m; sourceTree = "<group>"; };
+		630BA33C2030040400C80CD2 /* KUSClientActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSClientActivity.h; sourceTree = "<group>"; };
+		630BA33D2030040400C80CD2 /* KUSClientActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSClientActivity.m; sourceTree = "<group>"; };
+		630BA340203005F500C80CD2 /* KUSClientActivityTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSClientActivityTest.m; sourceTree = "<group>"; };
+		630BA342203101C700C80CD2 /* KUSClientActivityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSClientActivityManager.h; sourceTree = "<group>"; };
+		630BA343203101C700C80CD2 /* KUSClientActivityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSClientActivityManager.m; sourceTree = "<group>"; };
+		630BA346203107CF00C80CD2 /* KUSClientActivityDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSClientActivityDataSource.h; sourceTree = "<group>"; };
+		630BA347203107CF00C80CD2 /* KUSClientActivityDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSClientActivityDataSource.m; sourceTree = "<group>"; };
+		631E3F331F52497A00FAA33F /* KUSEmailInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSEmailInputView.h; sourceTree = "<group>"; };
+		631E3F341F52497A00FAA33F /* KUSEmailInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSEmailInputView.m; sourceTree = "<group>"; };
+		631E3F391F526C6000FAA33F /* KnowledgeBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowledgeBaseViewController.h; sourceTree = "<group>"; };
+		631E3F3A1F526C6000FAA33F /* KnowledgeBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowledgeBaseViewController.m; sourceTree = "<group>"; };
+		632665DB1F945DB800ED1AB2 /* KUSSessionsTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSSessionsTableView.h; sourceTree = "<group>"; };
+		632665DC1F945DB800ED1AB2 /* KUSSessionsTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSSessionsTableView.m; sourceTree = "<group>"; };
+		632665DF1F945DC700ED1AB2 /* KUSChatTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSChatTableView.h; sourceTree = "<group>"; };
+		632665E01F945DC700ED1AB2 /* KUSChatTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSChatTableView.m; sourceTree = "<group>"; };
+		63270E931F4A1FA200E25BF5 /* KUSPushClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSPushClient.h; sourceTree = "<group>"; };
+		63270E941F4A1FA200E25BF5 /* KUSPushClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSPushClient.m; sourceTree = "<group>"; };
+		63270E971F4A717600E25BF5 /* KUSDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSDate.h; sourceTree = "<group>"; };
+		63270E981F4A717600E25BF5 /* KUSDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSDate.m; sourceTree = "<group>"; };
+		632EA5CB1FF70CD400C4681C /* KUSOptionPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSOptionPickerView.h; sourceTree = "<group>"; };
+		632EA5CC1FF70CD400C4681C /* KUSOptionPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSOptionPickerView.m; sourceTree = "<group>"; };
+		632EA5CF1FF8168700C4681C /* KUSImageAttachmentCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSImageAttachmentCollectionViewCell.h; sourceTree = "<group>"; };
+		632EA5D01FF8168700C4681C /* KUSImageAttachmentCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSImageAttachmentCollectionViewCell.m; sourceTree = "<group>"; };
+		632EA5D31FF82A5900C4681C /* KUSNYTImagePhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSNYTImagePhoto.h; sourceTree = "<group>"; };
+		632EA5D41FF82A5900C4681C /* KUSNYTImagePhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSNYTImagePhoto.m; sourceTree = "<group>"; };
+		632EA5D71FF8952500C4681C /* KUSFadingButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSFadingButton.h; sourceTree = "<group>"; };
+		632EA5D81FF8952500C4681C /* KUSFadingButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSFadingButton.m; sourceTree = "<group>"; };
+		6334BE281F0C3E8600258DAF /* KUSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSModel.h; sourceTree = "<group>"; };
+		6334BE291F0C3E8600258DAF /* KUSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSModel.m; sourceTree = "<group>"; };
+		6334BE2C1F0C43BE00258DAF /* KUSTrackingToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSTrackingToken.h; sourceTree = "<group>"; };
+		6334BE2D1F0C43BE00258DAF /* KUSTrackingToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSTrackingToken.m; sourceTree = "<group>"; };
+		6334BE301F0C487300258DAF /* KUSChatSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSChatSettings.h; sourceTree = "<group>"; };
+		6334BE311F0C487400258DAF /* KUSChatSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSChatSettings.m; sourceTree = "<group>"; };
+		6334BE341F0C4A1300258DAF /* KUSChatSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSChatSession.h; sourceTree = "<group>"; };
+		6334BE351F0C4A1300258DAF /* KUSChatSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSChatSession.m; sourceTree = "<group>"; };
+		6334BE381F0C4B3D00258DAF /* KUSChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSChatMessage.h; sourceTree = "<group>"; };
+		6334BE391F0C4B3D00258DAF /* KUSChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSChatMessage.m; sourceTree = "<group>"; };
+		6334BE3C1F0C4EBE00258DAF /* KUSCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSCustomer.h; sourceTree = "<group>"; };
+		6334BE3D1F0C4EBE00258DAF /* KUSCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSCustomer.m; sourceTree = "<group>"; };
+		6334BE471F0C5E3F00258DAF /* KUSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSNavigationController.h; sourceTree = "<group>"; };
+		6334BE481F0C5E3F00258DAF /* KUSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSNavigationController.m; sourceTree = "<group>"; };
+		6334BE4B1F0C600F00258DAF /* KUSAttributionToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSAttributionToolbar.h; sourceTree = "<group>"; };
+		6334BE4C1F0C600F00258DAF /* KUSAttributionToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSAttributionToolbar.m; sourceTree = "<group>"; };
+		6334BE521F0C66E200258DAF /* KUSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSImage.h; sourceTree = "<group>"; };
+		6334BE531F0C66E200258DAF /* KUSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSImage.m; sourceTree = "<group>"; };
+		6334BE5E1F0C9B5100258DAF /* KUSPaginatedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSPaginatedResponse.h; sourceTree = "<group>"; };
+		6334BE5F1F0C9B5100258DAF /* KUSPaginatedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSPaginatedResponse.m; sourceTree = "<group>"; };
+		633D8FDC1F22EDB800BAFAC9 /* KUSInputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSInputBar.h; sourceTree = "<group>"; };
+		633D8FDD1F22EDB800BAFAC9 /* KUSInputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSInputBar.m; sourceTree = "<group>"; };
+		633D8FE01F2309E700BAFAC9 /* KUSChatSessionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSChatSessionTableViewCell.h; sourceTree = "<group>"; };
+		633D8FE11F2309E700BAFAC9 /* KUSChatSessionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSChatSessionTableViewCell.m; sourceTree = "<group>"; };
+		633D8FE41F239F9500BAFAC9 /* KUSChatPlaceholderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSChatPlaceholderTableViewCell.h; sourceTree = "<group>"; };
+		633D8FE51F239F9500BAFAC9 /* KUSChatPlaceholderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSChatPlaceholderTableViewCell.m; sourceTree = "<group>"; };
+		633D8FEB1F23C98200BAFAC9 /* KUSPaginatedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSPaginatedDataSource.h; sourceTree = "<group>"; };
+		633D8FEC1F23C98200BAFAC9 /* KUSPaginatedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSPaginatedDataSource.m; sourceTree = "<group>"; };
+		633D8FEF1F23CB0300BAFAC9 /* KUSPaginatedDataSource_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSPaginatedDataSource_Private.h; sourceTree = "<group>"; };
+		633D8FF01F23E07E00BAFAC9 /* KUSChatSessionsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSChatSessionsDataSource.h; sourceTree = "<group>"; };
+		633D8FF11F23E07E00BAFAC9 /* KUSChatSessionsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSChatSessionsDataSource.m; sourceTree = "<group>"; };
+		633FADBA1F258C2E0060B4A6 /* KUSChatMessagesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSChatMessagesDataSource.h; sourceTree = "<group>"; };
+		633FADBB1F258C2E0060B4A6 /* KUSChatMessagesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSChatMessagesDataSource.m; sourceTree = "<group>"; };
+		633FADC21F26E7630060B4A6 /* KUSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSTextView.h; sourceTree = "<group>"; };
+		633FADC31F26E7630060B4A6 /* KUSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSTextView.m; sourceTree = "<group>"; };
+		6365319F1F1BBA7C00433A50 /* KUSSessionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSSessionsViewController.h; sourceTree = "<group>"; };
+		636531A01F1BBA7C00433A50 /* KUSSessionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSSessionsViewController.m; sourceTree = "<group>"; };
+		636531A31F1BBAA100433A50 /* KustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KustomerViewController.h; sourceTree = "<group>"; };
+		636531A41F1BBAA100433A50 /* KustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KustomerViewController.m; sourceTree = "<group>"; };
+		636531A71F1BBCCD00433A50 /* KUSChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSChatViewController.h; sourceTree = "<group>"; };
+		636531A81F1BBCCD00433A50 /* KUSChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSChatViewController.m; sourceTree = "<group>"; };
+		636531B01F1C593D00433A50 /* KUSChatMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSChatMessageTableViewCell.h; sourceTree = "<group>"; };
+		636531B11F1C593D00433A50 /* KUSChatMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSChatMessageTableViewCell.m; sourceTree = "<group>"; };
+		636531B41F1DB73B00433A50 /* KUSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSColor.h; sourceTree = "<group>"; };
+		636531B51F1DB73B00433A50 /* KUSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSColor.m; sourceTree = "<group>"; };
+		636EA6261F9CF76100340B66 /* KUSRequestManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSRequestManagerTests.m; sourceTree = "<group>"; };
+		636EA6281F9D03BE00340B66 /* KustomerTestConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KustomerTestConstants.h; sourceTree = "<group>"; };
+		636EA6291F9D12BE00340B66 /* KUSDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSDateTests.m; sourceTree = "<group>"; };
+		636EA62B1F9D309C00340B66 /* KUSChatMessageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSChatMessageTests.m; sourceTree = "<group>"; };
+		636EA62D1F9D3EC100340B66 /* KUSUserSessionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSUserSessionTests.m; sourceTree = "<group>"; };
+		636EA62F1F9D4FD100340B66 /* KUSDelegateProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSDelegateProxyTests.m; sourceTree = "<group>"; };
+		636F75F41FDD89A30043B821 /* KUSChatAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSChatAttachment.h; sourceTree = "<group>"; };
+		636F75F51FDD89A30043B821 /* KUSChatAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSChatAttachment.m; sourceTree = "<group>"; };
+		6371779B1F43EDDC00A7F79C /* KUSAvatarImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSAvatarImageView.h; sourceTree = "<group>"; };
+		6371779C1F43EDDC00A7F79C /* KUSAvatarImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSAvatarImageView.m; sourceTree = "<group>"; };
+		637177A71F46A0DA00A7F79C /* KUSUserDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSUserDataSource.h; sourceTree = "<group>"; };
+		637177A81F46A0DA00A7F79C /* KUSUserDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSUserDataSource.m; sourceTree = "<group>"; };
+		637177AB1F46A28300A7F79C /* KUSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSUser.h; sourceTree = "<group>"; };
+		637177AC1F46A28300A7F79C /* KUSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSUser.m; sourceTree = "<group>"; };
+		6394DFF71FA57C21006F2899 /* KUSCustomerDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSCustomerDescription.h; sourceTree = "<group>"; };
+		6394DFF81FA57C21006F2899 /* KUSCustomerDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSCustomerDescription.m; sourceTree = "<group>"; };
+		6398E04E1FC2316F00001050 /* KUSChatSettingsTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSChatSettingsTest.m; sourceTree = "<group>"; };
+		639FBBBB1F5F98110065AB0B /* KUSNewSessionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSNewSessionButton.h; sourceTree = "<group>"; };
+		639FBBBC1F5F98110065AB0B /* KUSNewSessionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSNewSessionButton.m; sourceTree = "<group>"; };
+		63A4EDD61F097D8F00EA3852 /* Kustomer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kustomer_Private.h; sourceTree = "<group>"; };
+		63B9CD911F088E8800120F3E /* Kustomer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kustomer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B9CD9A1F088E8800120F3E /* KustomerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KustomerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B9CD9F1F088E8800120F3E /* KustomerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KustomerTests.m; sourceTree = "<group>"; };
+		63B9CDA11F088E8800120F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B9CDAC1F08907700120F3E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B9CDB01F0890B400120F3E /* Kustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kustomer.h; sourceTree = "<group>"; };
+		63B9CDB11F0890B400120F3E /* Kustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kustomer.m; sourceTree = "<group>"; };
+		63B9CDB81F089BF000120F3E /* KustomerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KustomerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B9CDBB1F089BF000120F3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63B9CDBD1F089BF000120F3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63B9CDBE1F089BF000120F3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63B9CDC01F089BF000120F3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63B9CDC11F089BF000120F3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63B9CDC61F089BF000120F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63B9CDC91F089BF000120F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63B9CDCB1F089BF000120F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BF9C611FE7772200E30C73 /* KUSUserSession_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSUserSession_Private.h; sourceTree = "<group>"; };
+		63BF9C631FE9564200E30C73 /* KUSForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSForm.h; sourceTree = "<group>"; };
+		63BF9C641FE9564200E30C73 /* KUSForm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSForm.m; sourceTree = "<group>"; };
+		63BF9C671FE9565200E30C73 /* KUSFormQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSFormQuestion.h; sourceTree = "<group>"; };
+		63BF9C681FE9565200E30C73 /* KUSFormQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSFormQuestion.m; sourceTree = "<group>"; };
+		63BF9C6B1FE95DCA00E30C73 /* KUSTeam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSTeam.h; sourceTree = "<group>"; };
+		63BF9C6C1FE95DCA00E30C73 /* KUSTeam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSTeam.m; sourceTree = "<group>"; };
+		63BF9C6F1FEB57B400E30C73 /* KUSFormDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSFormDataSource.h; sourceTree = "<group>"; };
+		63BF9C701FEB57B400E30C73 /* KUSFormDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSFormDataSource.m; sourceTree = "<group>"; };
+		63BF9C731FEB5C3900E30C73 /* KUSTeamsDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSTeamsDataSource.h; sourceTree = "<group>"; };
+		63BF9C741FEB5C3900E30C73 /* KUSTeamsDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSTeamsDataSource.m; sourceTree = "<group>"; };
+		63C76269203E71BD00A12BDD /* KUSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSTimer.h; sourceTree = "<group>"; };
+		63C7626A203E71BD00A12BDD /* KUSTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSTimer.m; sourceTree = "<group>"; };
+		63D4728F1F70AACC00C947F2 /* KUSNotificationWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSNotificationWindow.h; sourceTree = "<group>"; };
+		63D472901F70AACC00C947F2 /* KUSNotificationWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSNotificationWindow.m; sourceTree = "<group>"; };
+		63D472931F71561100C947F2 /* KUSDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSDelegateProxy.h; sourceTree = "<group>"; };
+		63D472941F71561100C947F2 /* KUSDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSDelegateProxy.m; sourceTree = "<group>"; };
+		63D529861FB7F0A500B1B004 /* KUSPermissions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSPermissions.h; sourceTree = "<group>"; };
+		63D529871FB7F0A500B1B004 /* KUSPermissions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSPermissions.m; sourceTree = "<group>"; };
+		63D9C17B1F2F705100999183 /* KUSChatSettingsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSChatSettingsDataSource.h; sourceTree = "<group>"; };
+		63D9C17C1F2F705100999183 /* KUSChatSettingsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSChatSettingsDataSource.m; sourceTree = "<group>"; };
+		63D9C1891F31761B00999183 /* KUSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSBaseViewController.h; sourceTree = "<group>"; };
+		63D9C18A1F31761B00999183 /* KUSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSBaseViewController.m; sourceTree = "<group>"; };
+		63DC734B1F5336BA00683DE8 /* KUSNYTChatMessagePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSNYTChatMessagePhoto.h; sourceTree = "<group>"; };
+		63DC734C1F5336BA00683DE8 /* KUSNYTChatMessagePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSNYTChatMessagePhoto.m; sourceTree = "<group>"; };
+		63DC735D1F57B1AC00683DE8 /* KUSAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSAudio.h; sourceTree = "<group>"; };
+		63DC735E1F57B1AC00683DE8 /* KUSAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSAudio.m; sourceTree = "<group>"; };
+		63DC73611F57B44900683DE8 /* message_received.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = message_received.m4a; sourceTree = "<group>"; };
+		63EB38521F2D83430020F38B /* KUSObjectDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSObjectDataSource.h; sourceTree = "<group>"; };
+		63EB38531F2D83430020F38B /* KUSObjectDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSObjectDataSource.m; sourceTree = "<group>"; };
+		63EB38561F2E1D880020F38B /* KUSObjectDataSource_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSObjectDataSource_Private.h; sourceTree = "<group>"; };
+		63EDF3CF1F412503000345D8 /* KUSUserSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSUserSession.h; sourceTree = "<group>"; };
+		63EDF3D01F412503000345D8 /* KUSUserSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSUserSession.m; sourceTree = "<group>"; };
+		63EDF3D31F414A67000345D8 /* KUSRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSRequestManager.h; sourceTree = "<group>"; };
+		63EDF3D41F414A67000345D8 /* KUSRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSRequestManager.m; sourceTree = "<group>"; };
+		63EDF3D71F415797000345D8 /* KUSTrackingTokenDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSTrackingTokenDataSource.h; sourceTree = "<group>"; };
+		63EDF3D81F415797000345D8 /* KUSTrackingTokenDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSTrackingTokenDataSource.m; sourceTree = "<group>"; };
+		63F61A771FF99D3100E56766 /* KUSUpload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSUpload.h; sourceTree = "<group>"; };
+		63F61A781FF99D3100E56766 /* KUSUpload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSUpload.m; sourceTree = "<group>"; };
+		63F61A7B1FFAC86400E56766 /* KUSMultipleAvatarsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSMultipleAvatarsView.h; sourceTree = "<group>"; };
+		63F61A7C1FFAC86400E56766 /* KUSMultipleAvatarsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSMultipleAvatarsView.m; sourceTree = "<group>"; };
+		6BBA02B9E3111B375725C25D /* Pods_KustomerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KustomerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F91D0EF26D550F6FA48F5E6 /* Pods-Kustomer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kustomer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kustomer/Pods-Kustomer.release.xcconfig"; sourceTree = "<group>"; };
+		A8B9C7F846CD493168479E0A /* Pods-KustomerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KustomerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KustomerTests/Pods-KustomerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C707369722527A4800F9E3BB /* KUSVolumeControlTimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSVolumeControlTimerManager.h; sourceTree = "<group>"; };
+		C707369922527A6E00F9E3BB /* KUSVolumeControlTimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSVolumeControlTimerManager.m; sourceTree = "<group>"; };
+		C70A6ACD2212EC53004B4F9C /* KUSDescribeConversationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSDescribeConversationTests.m; sourceTree = "<group>"; };
+		C714124D2265E5A300CD7C7A /* KUSEditFeedbackTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSEditFeedbackTableViewCell.h; sourceTree = "<group>"; };
+		C714124F2265E5CE00CD7C7A /* KUSEditFeedbackTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSEditFeedbackTableViewCell.m; sourceTree = "<group>"; };
+		C730E14C20E5159D00EF2AB8 /* KUSEndChatButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSEndChatButtonView.m; sourceTree = "<group>"; };
+		C730E15220E5179200EF2AB8 /* KUSEndChatButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSEndChatButtonView.h; sourceTree = "<group>"; };
+		C751A4A02269F77E00D0F08C /* KUSSatisfactionResponse_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSSatisfactionResponse_Private.h; sourceTree = "<group>"; };
+		C755F4A72258D8E000613F17 /* KUSTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSTimerTests.m; sourceTree = "<group>"; };
+		C75D3D822271836C00AAB0D7 /* KUSChatMessagesDataSource_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSChatMessagesDataSource_Private.h; sourceTree = "<group>"; };
+		C77880F9216CDBAC006375BC /* KUSMLFormValuesPickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSMLFormValuesPickerCollectionViewCell.h; sourceTree = "<group>"; };
+		C77880FA216CDBAC006375BC /* KUSMLFormValuesPickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSMLFormValuesPickerCollectionViewCell.m; sourceTree = "<group>"; };
+		C77880FD216CDBCC006375BC /* KUSMLFormValuesPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSMLFormValuesPickerView.h; sourceTree = "<group>"; };
+		C77880FE216CDBCC006375BC /* KUSMLFormValuesPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSMLFormValuesPickerView.m; sourceTree = "<group>"; };
+		C7788101216CDBED006375BC /* KUSMLFormValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSMLFormValue.h; sourceTree = "<group>"; };
+		C7788102216CDBED006375BC /* KUSMLFormValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSMLFormValue.m; sourceTree = "<group>"; };
+		C7788103216CDBED006375BC /* KUSMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSMLNode.h; sourceTree = "<group>"; };
+		C7788104216CDBED006375BC /* KUSMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSMLNode.m; sourceTree = "<group>"; };
+		C77A3233225B67F100187C70 /* KUSVCTimerManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSVCTimerManagerTests.m; sourceTree = "<group>"; };
+		C78406F6225F8E7F003BDE6D /* KUSSatisfactionResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSSatisfactionResponse.h; sourceTree = "<group>"; };
+		C78406F8225F8EA0003BDE6D /* KUSSatisfactionResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSSatisfactionResponse.m; sourceTree = "<group>"; };
+		C78406FA225F989A003BDE6D /* KUSSatisfactionResponseDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSSatisfactionResponseDataSource.m; sourceTree = "<group>"; };
+		C787065B20EA3D2900D54AE2 /* KUSChatEndedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSChatEndedTableViewCell.h; sourceTree = "<group>"; };
+		C787065D20EA3D7B00D54AE2 /* KUSChatEndedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSChatEndedTableViewCell.m; sourceTree = "<group>"; };
+		C7C6006A225DDE4A00899FB1 /* KUSSatisfactionForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSSatisfactionForm.h; sourceTree = "<group>"; };
+		C7C6006C225DE04B00899FB1 /* KUSSatisfactionForm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSSatisfactionForm.m; sourceTree = "<group>"; };
+		C7C6006E225E034900899FB1 /* KUSSatisfactionResponseDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSSatisfactionResponseDataSource.h; sourceTree = "<group>"; };
+		C7C68497226067FD008E335D /* KUSSatisfactionFormTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSSatisfactionFormTableViewCell.h; sourceTree = "<group>"; };
+		C7C6849922606853008E335D /* KUSSatisfactionFormTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSSatisfactionFormTableViewCell.m; sourceTree = "<group>"; };
+		C7C6849B22608EDD008E335D /* KUSRatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSRatingView.h; sourceTree = "<group>"; };
+		C7C6849D22608EF3008E335D /* KUSRatingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSRatingView.m; sourceTree = "<group>"; };
+		C7D98AA4227083270067DB7D /* KUSSatisfactionFormTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSSatisfactionFormTest.m; sourceTree = "<group>"; };
+		C7D98AA62270834E0067DB7D /* KUSSatisfactionResponseTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSSatisfactionResponseTest.m; sourceTree = "<group>"; };
+		C7FAC306224B5E3500D6D659 /* KUSReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSReachabilityManager.h; sourceTree = "<group>"; };
+		C7FAC307224B5E3500D6D659 /* KUSReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSReachabilityManager.m; sourceTree = "<group>"; };
+		C7FAC30A224B5FA300D6D659 /* KUSReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSReachability.h; sourceTree = "<group>"; };
+		C7FAC30B224B5FA300D6D659 /* KUSReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSReachability.m; sourceTree = "<group>"; };
+		C7FAC30E224B631A00D6D659 /* KUSStatsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSStatsManager.h; sourceTree = "<group>"; };
+		C7FAC310224B633500D6D659 /* KUSStatsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSStatsManager.m; sourceTree = "<group>"; };
+		D6181AC820D92DB100CE7377 /* Strings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Strings.bundle; sourceTree = "<group>"; };
+		D61F927A2174D0B300C65B9F /* KUSScheduleDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSScheduleDataSource.m; sourceTree = "<group>"; };
+		D61F927D2174D94700C65B9F /* KUSSchedule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSSchedule.h; sourceTree = "<group>"; };
+		D61F927E2174D94700C65B9F /* KUSSchedule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSSchedule.m; sourceTree = "<group>"; };
+		D61F92812174DF8600C65B9F /* KUSScheduleDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSScheduleDataSource.h; sourceTree = "<group>"; };
+		D61F92832174EF7200C65B9F /* KUSHoliday.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSHoliday.h; sourceTree = "<group>"; };
+		D61F92842174EF7200C65B9F /* KUSHoliday.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSHoliday.m; sourceTree = "<group>"; };
+		D624913E5C7AD4492EF0D39B /* Pods_KustomerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KustomerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62F3A2420C1353200FBEA61 /* KUSClosedChatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSClosedChatView.h; sourceTree = "<group>"; };
+		D62F3A2520C1353200FBEA61 /* KUSClosedChatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSClosedChatView.m; sourceTree = "<group>"; };
+		D64E3B1E2193058700774745 /* KUSSessionQueuePollingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSSessionQueuePollingManager.h; sourceTree = "<group>"; };
+		D64E3B1F2193058700774745 /* KUSSessionQueuePollingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSSessionQueuePollingManager.m; sourceTree = "<group>"; };
+		D6BB945F20A18537001AFCB6 /* KUSLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSLocalization.h; sourceTree = "<group>"; };
+		D6BB946020A18537001AFCB6 /* KUSLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSLocalization.m; sourceTree = "<group>"; };
+		D6BB946520A1AA5F001AFCB6 /* KUSLocalizationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSLocalizationTest.m; sourceTree = "<group>"; };
+		D6C2364E2191FC3A00F34CBE /* KUSSessionQueueDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSSessionQueueDataSource.h; sourceTree = "<group>"; };
+		D6C2364F2191FC3A00F34CBE /* KUSSessionQueueDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSSessionQueueDataSource.m; sourceTree = "<group>"; };
+		D6C236522191FC7E00F34CBE /* KUSSessionQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSSessionQueue.h; sourceTree = "<group>"; };
+		D6C236532191FC7E00F34CBE /* KUSSessionQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSSessionQueue.m; sourceTree = "<group>"; };
+		D6DBA35C226711B200276475 /* KUSTypingIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSTypingIndicator.h; sourceTree = "<group>"; };
+		D6DBA35D226711B200276475 /* KUSTypingIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSTypingIndicator.m; sourceTree = "<group>"; };
+		D6DBA3642267930300276475 /* KUSTypingIndicatorTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSTypingIndicatorTableViewCell.h; sourceTree = "<group>"; };
+		D6DBA3652267930300276475 /* KUSTypingIndicatorTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSTypingIndicatorTableViewCell.m; sourceTree = "<group>"; };
+		D6FE45C82268A118002CF416 /* KUSTypingIndicatorTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSTypingIndicatorTest.m; sourceTree = "<group>"; };
+		DD66730E23E230F3003600A7 /* KUSQLPreviewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSQLPreviewItem.h; sourceTree = "<group>"; };
+		DD66730F23E230F4003600A7 /* KUSQLPreviewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSQLPreviewItem.m; sourceTree = "<group>"; };
+		DD66731223E23128003600A7 /* KUSAttachmentViewerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSAttachmentViewerNavigationController.h; sourceTree = "<group>"; };
+		DD66731323E23128003600A7 /* KUSAttachmentViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUSAttachmentViewer.h; sourceTree = "<group>"; };
+		DD66731423E23129003600A7 /* KUSAttachmentViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSAttachmentViewer.m; sourceTree = "<group>"; };
+		DD66731523E23129003600A7 /* KUSAttachmentViewerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUSAttachmentViewerNavigationController.m; sourceTree = "<group>"; };
+		DDF6530D23E4B297004B4D5B /* KUSMediaAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUSMediaAttachment.h; sourceTree = "<group>"; };
+		DDF6530F23E4B2C6004B4D5B /* KUSMediaAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUSMediaAttachment.m; sourceTree = "<group>"; };
+		FAEBB4868A9AF9DB8C939E87 /* Pods-KustomerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KustomerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KustomerTests/Pods-KustomerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B9CD8D1F088E8800120F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7CDE24CE12E0916484305C /* Pods_Kustomer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B9CD971F088E8800120F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B9CD9B1F088E8800120F3E /* Kustomer.framework in Frameworks */,
+				7C3913946A295179BE2E925B /* Pods_KustomerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B9CDB51F089BF000120F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B9CDDE1F095AA200120F3E /* Kustomer.framework in Frameworks */,
+				FC5BDC34DC026F04AE056627 /* Pods_KustomerExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A043903234BD257006ADE3F /* SpinKit */ = {
+			isa = PBXGroup;
+			children = (
+				0A043910234BD3CA006ADE3F /* RTSpinKitAnimating.h */,
+				0A04390D234BD398006ADE3F /* RTSpinKitUtils.h */,
+				0A04390C234BD397006ADE3F /* RTSpinKitUtils.m */,
+				0A043909234BD2AA006ADE3F /* RTSpinKitThreeBounceAnimation.h */,
+				0A043908234BD2AA006ADE3F /* RTSpinKitThreeBounceAnimation.m */,
+				0A043904234BD275006ADE3F /* RTSpinKitView.h */,
+				0A043905234BD276006ADE3F /* RTSpinKitView.m */,
+			);
+			path = SpinKit;
+			sourceTree = "<group>";
+		};
+		6334BE251F0C3E7100258DAF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD66730E23E230F3003600A7 /* KUSQLPreviewItem.h */,
+				DD66730F23E230F4003600A7 /* KUSQLPreviewItem.m */,
+				6334BE281F0C3E8600258DAF /* KUSModel.h */,
+				6334BE291F0C3E8600258DAF /* KUSModel.m */,
+				C7788101216CDBED006375BC /* KUSMLFormValue.h */,
+				C7788102216CDBED006375BC /* KUSMLFormValue.m */,
+				C7788103216CDBED006375BC /* KUSMLNode.h */,
+				C7788104216CDBED006375BC /* KUSMLNode.m */,
+				6334BE2C1F0C43BE00258DAF /* KUSTrackingToken.h */,
+				6334BE2D1F0C43BE00258DAF /* KUSTrackingToken.m */,
+				6334BE301F0C487300258DAF /* KUSChatSettings.h */,
+				6334BE311F0C487400258DAF /* KUSChatSettings.m */,
+				6334BE341F0C4A1300258DAF /* KUSChatSession.h */,
+				6334BE351F0C4A1300258DAF /* KUSChatSession.m */,
+				6334BE381F0C4B3D00258DAF /* KUSChatMessage.h */,
+				6334BE391F0C4B3D00258DAF /* KUSChatMessage.m */,
+				636F75F41FDD89A30043B821 /* KUSChatAttachment.h */,
+				636F75F51FDD89A30043B821 /* KUSChatAttachment.m */,
+				630BA33C2030040400C80CD2 /* KUSClientActivity.h */,
+				630BA33D2030040400C80CD2 /* KUSClientActivity.m */,
+				6334BE3C1F0C4EBE00258DAF /* KUSCustomer.h */,
+				6334BE3D1F0C4EBE00258DAF /* KUSCustomer.m */,
+				63BF9C631FE9564200E30C73 /* KUSForm.h */,
+				63BF9C641FE9564200E30C73 /* KUSForm.m */,
+				63BF9C671FE9565200E30C73 /* KUSFormQuestion.h */,
+				63BF9C681FE9565200E30C73 /* KUSFormQuestion.m */,
+				63BF9C6B1FE95DCA00E30C73 /* KUSTeam.h */,
+				63BF9C6C1FE95DCA00E30C73 /* KUSTeam.m */,
+				637177AB1F46A28300A7F79C /* KUSUser.h */,
+				637177AC1F46A28300A7F79C /* KUSUser.m */,
+				6334BE5E1F0C9B5100258DAF /* KUSPaginatedResponse.h */,
+				6334BE5F1F0C9B5100258DAF /* KUSPaginatedResponse.m */,
+				63DC734B1F5336BA00683DE8 /* KUSNYTChatMessagePhoto.h */,
+				63DC734C1F5336BA00683DE8 /* KUSNYTChatMessagePhoto.m */,
+				632EA5D31FF82A5900C4681C /* KUSNYTImagePhoto.h */,
+				632EA5D41FF82A5900C4681C /* KUSNYTImagePhoto.m */,
+				6394DFF71FA57C21006F2899 /* KUSCustomerDescription.h */,
+				6394DFF81FA57C21006F2899 /* KUSCustomerDescription.m */,
+				D61F927D2174D94700C65B9F /* KUSSchedule.h */,
+				D61F927E2174D94700C65B9F /* KUSSchedule.m */,
+				D61F92832174EF7200C65B9F /* KUSHoliday.h */,
+				D61F92842174EF7200C65B9F /* KUSHoliday.m */,
+				D6C236522191FC7E00F34CBE /* KUSSessionQueue.h */,
+				D6C236532191FC7E00F34CBE /* KUSSessionQueue.m */,
+				C7C6006A225DDE4A00899FB1 /* KUSSatisfactionForm.h */,
+				C7C6006C225DE04B00899FB1 /* KUSSatisfactionForm.m */,
+				C78406F6225F8E7F003BDE6D /* KUSSatisfactionResponse.h */,
+				C751A4A02269F77E00D0F08C /* KUSSatisfactionResponse_Private.h */,
+				C78406F8225F8EA0003BDE6D /* KUSSatisfactionResponse.m */,
+				D6DBA35C226711B200276475 /* KUSTypingIndicator.h */,
+				D6DBA35D226711B200276475 /* KUSTypingIndicator.m */,
+				DDF6530D23E4B297004B4D5B /* KUSMediaAttachment.h */,
+				DDF6530F23E4B2C6004B4D5B /* KUSMediaAttachment.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6334BE401F0C52C400258DAF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				63270E931F4A1FA200E25BF5 /* KUSPushClient.h */,
+				63270E941F4A1FA200E25BF5 /* KUSPushClient.m */,
+				630BA342203101C700C80CD2 /* KUSClientActivityManager.h */,
+				630BA343203101C700C80CD2 /* KUSClientActivityManager.m */,
+				63EDF3D31F414A67000345D8 /* KUSRequestManager.h */,
+				63EDF3D41F414A67000345D8 /* KUSRequestManager.m */,
+				63EDF3CF1F412503000345D8 /* KUSUserSession.h */,
+				63BF9C611FE7772200E30C73 /* KUSUserSession_Private.h */,
+				63EDF3D01F412503000345D8 /* KUSUserSession.m */,
+				D64E3B1E2193058700774745 /* KUSSessionQueuePollingManager.h */,
+				D64E3B1F2193058700774745 /* KUSSessionQueuePollingManager.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6334BE4F1F0C66D500258DAF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C7FAC30A224B5FA300D6D659 /* KUSReachability.h */,
+				C7FAC30B224B5FA300D6D659 /* KUSReachability.m */,
+				63DC735D1F57B1AC00683DE8 /* KUSAudio.h */,
+				63DC735E1F57B1AC00683DE8 /* KUSAudio.m */,
+				636531B41F1DB73B00433A50 /* KUSColor.h */,
+				636531B51F1DB73B00433A50 /* KUSColor.m */,
+				63270E971F4A717600E25BF5 /* KUSDate.h */,
+				63270E981F4A717600E25BF5 /* KUSDate.m */,
+				6334BE521F0C66E200258DAF /* KUSImage.h */,
+				6334BE531F0C66E200258DAF /* KUSImage.m */,
+				D6BB945F20A18537001AFCB6 /* KUSLocalization.h */,
+				D6BB946020A18537001AFCB6 /* KUSLocalization.m */,
+				63006E561F92F8AC00C2BC9D /* KUSLog.h */,
+				63D529861FB7F0A500B1B004 /* KUSPermissions.h */,
+				63D529871FB7F0A500B1B004 /* KUSPermissions.m */,
+				63035BD71F2EBCD400FBBF66 /* KUSText.h */,
+				63035BD81F2EBCD400FBBF66 /* KUSText.m */,
+				63F61A771FF99D3100E56766 /* KUSUpload.h */,
+				63F61A781FF99D3100E56766 /* KUSUpload.m */,
+				630236C71FD84107008B4EA8 /* KUSUserDefaults.h */,
+				630236C81FD84107008B4EA8 /* KUSUserDefaults.m */,
+				63C76269203E71BD00A12BDD /* KUSTimer.h */,
+				63C7626A203E71BD00A12BDD /* KUSTimer.m */,
+				63DC73611F57B44900683DE8 /* message_received.m4a */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		633D8FE81F23C96D00BAFAC9 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				633D8FEB1F23C98200BAFAC9 /* KUSPaginatedDataSource.h */,
+				633D8FEF1F23CB0300BAFAC9 /* KUSPaginatedDataSource_Private.h */,
+				633D8FEC1F23C98200BAFAC9 /* KUSPaginatedDataSource.m */,
+				633FADBA1F258C2E0060B4A6 /* KUSChatMessagesDataSource.h */,
+				C75D3D822271836C00AAB0D7 /* KUSChatMessagesDataSource_Private.h */,
+				633FADBB1F258C2E0060B4A6 /* KUSChatMessagesDataSource.m */,
+				633D8FF01F23E07E00BAFAC9 /* KUSChatSessionsDataSource.h */,
+				633D8FF11F23E07E00BAFAC9 /* KUSChatSessionsDataSource.m */,
+				63EB38521F2D83430020F38B /* KUSObjectDataSource.h */,
+				63EB38561F2E1D880020F38B /* KUSObjectDataSource_Private.h */,
+				63EB38531F2D83430020F38B /* KUSObjectDataSource.m */,
+				63D9C17B1F2F705100999183 /* KUSChatSettingsDataSource.h */,
+				63D9C17C1F2F705100999183 /* KUSChatSettingsDataSource.m */,
+				630BA346203107CF00C80CD2 /* KUSClientActivityDataSource.h */,
+				630BA347203107CF00C80CD2 /* KUSClientActivityDataSource.m */,
+				63EDF3D71F415797000345D8 /* KUSTrackingTokenDataSource.h */,
+				63EDF3D81F415797000345D8 /* KUSTrackingTokenDataSource.m */,
+				63BF9C6F1FEB57B400E30C73 /* KUSFormDataSource.h */,
+				63BF9C701FEB57B400E30C73 /* KUSFormDataSource.m */,
+				63BF9C731FEB5C3900E30C73 /* KUSTeamsDataSource.h */,
+				63BF9C741FEB5C3900E30C73 /* KUSTeamsDataSource.m */,
+				637177A71F46A0DA00A7F79C /* KUSUserDataSource.h */,
+				637177A81F46A0DA00A7F79C /* KUSUserDataSource.m */,
+				63D472931F71561100C947F2 /* KUSDelegateProxy.h */,
+				63D472941F71561100C947F2 /* KUSDelegateProxy.m */,
+				D61F92812174DF8600C65B9F /* KUSScheduleDataSource.h */,
+				D61F927A2174D0B300C65B9F /* KUSScheduleDataSource.m */,
+				D6C2364E2191FC3A00F34CBE /* KUSSessionQueueDataSource.h */,
+				D6C2364F2191FC3A00F34CBE /* KUSSessionQueueDataSource.m */,
+				C7C6006E225E034900899FB1 /* KUSSatisfactionResponseDataSource.h */,
+				C78406FA225F989A003BDE6D /* KUSSatisfactionResponseDataSource.m */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		63A4EDE41F0A968E00EA3852 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A043903234BD257006ADE3F /* SpinKit */,
+				63A4EDE51F0A968E00EA3852 /* Cells */,
+				C77880FD216CDBCC006375BC /* KUSMLFormValuesPickerView.h */,
+				C77880FE216CDBCC006375BC /* KUSMLFormValuesPickerView.m */,
+				6334BE4B1F0C600F00258DAF /* KUSAttributionToolbar.h */,
+				6334BE4C1F0C600F00258DAF /* KUSAttributionToolbar.m */,
+				6371779B1F43EDDC00A7F79C /* KUSAvatarImageView.h */,
+				6371779C1F43EDDC00A7F79C /* KUSAvatarImageView.m */,
+				63F61A7B1FFAC86400E56766 /* KUSMultipleAvatarsView.h */,
+				63F61A7C1FFAC86400E56766 /* KUSMultipleAvatarsView.m */,
+				624D7CBB1F7876440039BE90 /* KUSNavigationBarView.h */,
+				624D7CBC1F7876440039BE90 /* KUSNavigationBarView.m */,
+				639FBBBB1F5F98110065AB0B /* KUSNewSessionButton.h */,
+				639FBBBC1F5F98110065AB0B /* KUSNewSessionButton.m */,
+				631E3F331F52497A00FAA33F /* KUSEmailInputView.h */,
+				631E3F341F52497A00FAA33F /* KUSEmailInputView.m */,
+				632EA5D71FF8952500C4681C /* KUSFadingButton.h */,
+				632EA5D81FF8952500C4681C /* KUSFadingButton.m */,
+				633D8FDC1F22EDB800BAFAC9 /* KUSInputBar.h */,
+				633D8FDD1F22EDB800BAFAC9 /* KUSInputBar.m */,
+				632EA5CB1FF70CD400C4681C /* KUSOptionPickerView.h */,
+				632EA5CC1FF70CD400C4681C /* KUSOptionPickerView.m */,
+				633FADC21F26E7630060B4A6 /* KUSTextView.h */,
+				633FADC31F26E7630060B4A6 /* KUSTextView.m */,
+				632665DB1F945DB800ED1AB2 /* KUSSessionsTableView.h */,
+				632665DC1F945DB800ED1AB2 /* KUSSessionsTableView.m */,
+				632665DF1F945DC700ED1AB2 /* KUSChatTableView.h */,
+				632665E01F945DC700ED1AB2 /* KUSChatTableView.m */,
+				63D4728F1F70AACC00C947F2 /* KUSNotificationWindow.h */,
+				63D472901F70AACC00C947F2 /* KUSNotificationWindow.m */,
+				D62F3A2420C1353200FBEA61 /* KUSClosedChatView.h */,
+				D62F3A2520C1353200FBEA61 /* KUSClosedChatView.m */,
+				C730E15220E5179200EF2AB8 /* KUSEndChatButtonView.h */,
+				C730E14C20E5159D00EF2AB8 /* KUSEndChatButtonView.m */,
+				C7C6849B22608EDD008E335D /* KUSRatingView.h */,
+				C7C6849D22608EF3008E335D /* KUSRatingView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63A4EDE51F0A968E00EA3852 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C77880F9216CDBAC006375BC /* KUSMLFormValuesPickerCollectionViewCell.h */,
+				C77880FA216CDBAC006375BC /* KUSMLFormValuesPickerCollectionViewCell.m */,
+				636531B01F1C593D00433A50 /* KUSChatMessageTableViewCell.h */,
+				636531B11F1C593D00433A50 /* KUSChatMessageTableViewCell.m */,
+				633D8FE01F2309E700BAFAC9 /* KUSChatSessionTableViewCell.h */,
+				633D8FE11F2309E700BAFAC9 /* KUSChatSessionTableViewCell.m */,
+				633D8FE41F239F9500BAFAC9 /* KUSChatPlaceholderTableViewCell.h */,
+				633D8FE51F239F9500BAFAC9 /* KUSChatPlaceholderTableViewCell.m */,
+				632EA5CF1FF8168700C4681C /* KUSImageAttachmentCollectionViewCell.h */,
+				632EA5D01FF8168700C4681C /* KUSImageAttachmentCollectionViewCell.m */,
+				C787065B20EA3D2900D54AE2 /* KUSChatEndedTableViewCell.h */,
+				C787065D20EA3D7B00D54AE2 /* KUSChatEndedTableViewCell.m */,
+				C7C68497226067FD008E335D /* KUSSatisfactionFormTableViewCell.h */,
+				C7C6849922606853008E335D /* KUSSatisfactionFormTableViewCell.m */,
+				C714124D2265E5A300CD7C7A /* KUSEditFeedbackTableViewCell.h */,
+				C714124F2265E5CE00CD7C7A /* KUSEditFeedbackTableViewCell.m */,
+				D6DBA3642267930300276475 /* KUSTypingIndicatorTableViewCell.h */,
+				D6DBA3652267930300276475 /* KUSTypingIndicatorTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		63B9CD871F088E8800120F3E = {
+			isa = PBXGroup;
+			children = (
+				63B9CDAB1F08907700120F3E /* Source */,
+				63B9CD9E1F088E8800120F3E /* KustomerTests */,
+				63B9CDB91F089BF000120F3E /* KustomerExample */,
+				63B9CD921F088E8800120F3E /* Products */,
+				E4EF66D4BDAF1A3D5F282BCE /* Pods */,
+				9B56C5FD23F16FBBE4D70EFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63B9CD921F088E8800120F3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B9CD911F088E8800120F3E /* Kustomer.framework */,
+				63B9CD9A1F088E8800120F3E /* KustomerTests.xctest */,
+				63B9CDB81F089BF000120F3E /* KustomerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B9CD9E1F088E8800120F3E /* KustomerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6BB946520A1AA5F001AFCB6 /* KUSLocalizationTest.m */,
+				636EA6281F9D03BE00340B66 /* KustomerTestConstants.h */,
+				63B9CD9F1F088E8800120F3E /* KustomerTests.m */,
+				636EA62D1F9D3EC100340B66 /* KUSUserSessionTests.m */,
+				636EA6261F9CF76100340B66 /* KUSRequestManagerTests.m */,
+				636EA6291F9D12BE00340B66 /* KUSDateTests.m */,
+				636EA62B1F9D309C00340B66 /* KUSChatMessageTests.m */,
+				6398E04E1FC2316F00001050 /* KUSChatSettingsTest.m */,
+				630BA340203005F500C80CD2 /* KUSClientActivityTest.m */,
+				636EA62F1F9D4FD100340B66 /* KUSDelegateProxyTests.m */,
+				C70A6ACD2212EC53004B4F9C /* KUSDescribeConversationTests.m */,
+				C7D98AA4227083270067DB7D /* KUSSatisfactionFormTest.m */,
+				63B9CDA11F088E8800120F3E /* Info.plist */,
+				C7D98AA62270834E0067DB7D /* KUSSatisfactionResponseTest.m */,
+				C755F4A72258D8E000613F17 /* KUSTimerTests.m */,
+				C77A3233225B67F100187C70 /* KUSVCTimerManagerTests.m */,
+				D6FE45C82268A118002CF416 /* KUSTypingIndicatorTest.m */,
+			);
+			path = KustomerTests;
+			sourceTree = "<group>";
+		};
+		63B9CDAB1F08907700120F3E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D6181AC820D92DB100CE7377 /* Strings.bundle */,
+				63B9CDAC1F08907700120F3E /* Info.plist */,
+				63B9CDB01F0890B400120F3E /* Kustomer.h */,
+				63A4EDD61F097D8F00EA3852 /* Kustomer_Private.h */,
+				63B9CDB11F0890B400120F3E /* Kustomer.m */,
+				636531A31F1BBAA100433A50 /* KustomerViewController.h */,
+				636531A41F1BBAA100433A50 /* KustomerViewController.m */,
+				631E3F391F526C6000FAA33F /* KnowledgeBaseViewController.h */,
+				631E3F3A1F526C6000FAA33F /* KnowledgeBaseViewController.m */,
+				C7FAC305224B5E3500D6D659 /* Managers */,
+				6334BE401F0C52C400258DAF /* API */,
+				633D8FE81F23C96D00BAFAC9 /* DataSources */,
+				6334BE4F1F0C66D500258DAF /* Helpers */,
+				6334BE251F0C3E7100258DAF /* Models */,
+				63B9CDE31F095E1D00120F3E /* ViewControllers */,
+				63A4EDE41F0A968E00EA3852 /* Views */,
+				12AD2A7424D32AA4005E562E /* Images.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		63B9CDB91F089BF000120F3E /* KustomerExample */ = {
+			isa = PBXGroup;
+			children = (
+				63B9CDBD1F089BF000120F3E /* AppDelegate.h */,
+				63B9CDBE1F089BF000120F3E /* AppDelegate.m */,
+				63B9CDC01F089BF000120F3E /* ViewController.h */,
+				63B9CDC11F089BF000120F3E /* ViewController.m */,
+				63B9CDC61F089BF000120F3E /* Assets.xcassets */,
+				63B9CDC81F089BF000120F3E /* LaunchScreen.storyboard */,
+				63B9CDCB1F089BF000120F3E /* Info.plist */,
+				63B9CDBA1F089BF000120F3E /* Supporting Files */,
+			);
+			path = KustomerExample;
+			sourceTree = "<group>";
+		};
+		63B9CDBA1F089BF000120F3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63B9CDBB1F089BF000120F3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63B9CDE31F095E1D00120F3E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD66731323E23128003600A7 /* KUSAttachmentViewer.h */,
+				DD66731423E23129003600A7 /* KUSAttachmentViewer.m */,
+				DD66731223E23128003600A7 /* KUSAttachmentViewerNavigationController.h */,
+				DD66731523E23129003600A7 /* KUSAttachmentViewerNavigationController.m */,
+				636531A71F1BBCCD00433A50 /* KUSChatViewController.h */,
+				636531A81F1BBCCD00433A50 /* KUSChatViewController.m */,
+				6365319F1F1BBA7C00433A50 /* KUSSessionsViewController.h */,
+				636531A01F1BBA7C00433A50 /* KUSSessionsViewController.m */,
+				6334BE471F0C5E3F00258DAF /* KUSNavigationController.h */,
+				6334BE481F0C5E3F00258DAF /* KUSNavigationController.m */,
+				63D9C1891F31761B00999183 /* KUSBaseViewController.h */,
+				63D9C18A1F31761B00999183 /* KUSBaseViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9B56C5FD23F16FBBE4D70EFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4074C2A1E9213757162ED660 /* Pods_Kustomer.framework */,
+				6BBA02B9E3111B375725C25D /* Pods_KustomerExample.framework */,
+				D624913E5C7AD4492EF0D39B /* Pods_KustomerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7FAC305224B5E3500D6D659 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C7FAC306224B5E3500D6D659 /* KUSReachabilityManager.h */,
+				C7FAC307224B5E3500D6D659 /* KUSReachabilityManager.m */,
+				C7FAC30E224B631A00D6D659 /* KUSStatsManager.h */,
+				C7FAC310224B633500D6D659 /* KUSStatsManager.m */,
+				C707369722527A4800F9E3BB /* KUSVolumeControlTimerManager.h */,
+				C707369922527A6E00F9E3BB /* KUSVolumeControlTimerManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E4EF66D4BDAF1A3D5F282BCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19AB306DD5AA4895D0C92102 /* Pods-Kustomer.debug.xcconfig */,
+				6F91D0EF26D550F6FA48F5E6 /* Pods-Kustomer.release.xcconfig */,
+				479720192A1054576AB58BBA /* Pods-KustomerExample.debug.xcconfig */,
+				448086DB570B5537AB2DFA4E /* Pods-KustomerExample.release.xcconfig */,
+				FAEBB4868A9AF9DB8C939E87 /* Pods-KustomerTests.debug.xcconfig */,
+				A8B9C7F846CD493168479E0A /* Pods-KustomerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63B9CD8E1F088E8800120F3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DBA3662267930300276475 /* KUSTypingIndicatorTableViewCell.h in Headers */,
+				633D8FED1F23C98200BAFAC9 /* KUSPaginatedDataSource.h in Headers */,
+				D6DBA35E226711B200276475 /* KUSTypingIndicator.h in Headers */,
+				C77880FF216CDBCC006375BC /* KUSMLFormValuesPickerView.h in Headers */,
+				D64E3B202193058700774745 /* KUSSessionQueuePollingManager.h in Headers */,
+				63DC735F1F57B1AC00683DE8 /* KUSAudio.h in Headers */,
+				63BF9C691FE9565200E30C73 /* KUSFormQuestion.h in Headers */,
+				63EB38571F2E1D880020F38B /* KUSObjectDataSource_Private.h in Headers */,
+				63D472911F70AACC00C947F2 /* KUSNotificationWindow.h in Headers */,
+				632EA5D11FF8168700C4681C /* KUSImageAttachmentCollectionViewCell.h in Headers */,
+				DD66731623E23129003600A7 /* KUSAttachmentViewerNavigationController.h in Headers */,
+				C7C6849C22608EDD008E335D /* KUSRatingView.h in Headers */,
+				C7FAC30F224B631A00D6D659 /* KUSStatsManager.h in Headers */,
+				6334BE3A1F0C4B3D00258DAF /* KUSChatMessage.h in Headers */,
+				63EB38541F2D83430020F38B /* KUSObjectDataSource.h in Headers */,
+				630BA33E2030040400C80CD2 /* KUSClientActivity.h in Headers */,
+				631E3F351F52497A00FAA33F /* KUSEmailInputView.h in Headers */,
+				63D9C17D1F2F705100999183 /* KUSChatSettingsDataSource.h in Headers */,
+				63BF9C751FEB5C3900E30C73 /* KUSTeamsDataSource.h in Headers */,
+				633FADBC1F258C2E0060B4A6 /* KUSChatMessagesDataSource.h in Headers */,
+				636F75F61FDD89A30043B821 /* KUSChatAttachment.h in Headers */,
+				C751A4A12269F77E00D0F08C /* KUSSatisfactionResponse_Private.h in Headers */,
+				C7C6006F225E034900899FB1 /* KUSSatisfactionResponseDataSource.h in Headers */,
+				C7C68498226067FD008E335D /* KUSSatisfactionFormTableViewCell.h in Headers */,
+				63F61A791FF99D3100E56766 /* KUSUpload.h in Headers */,
+				63D529881FB7F0A500B1B004 /* KUSPermissions.h in Headers */,
+				63D9C18B1F31761B00999183 /* KUSBaseViewController.h in Headers */,
+				633D8FDE1F22EDB800BAFAC9 /* KUSInputBar.h in Headers */,
+				639FBBBD1F5F98110065AB0B /* KUSNewSessionButton.h in Headers */,
+				63035BD91F2EBCD400FBBF66 /* KUSText.h in Headers */,
+				624D7CBD1F7876440039BE90 /* KUSNavigationBarView.h in Headers */,
+				C787065C20EA3D2900D54AE2 /* KUSChatEndedTableViewCell.h in Headers */,
+				6334BE601F0C9B5100258DAF /* KUSPaginatedResponse.h in Headers */,
+				C7FAC308224B5E3500D6D659 /* KUSReachabilityManager.h in Headers */,
+				636531A51F1BBAA100433A50 /* KustomerViewController.h in Headers */,
+				63BF9C711FEB57B400E30C73 /* KUSFormDataSource.h in Headers */,
+				63D472951F71561100C947F2 /* KUSDelegateProxy.h in Headers */,
+				63F61A7D1FFAC86400E56766 /* KUSMultipleAvatarsView.h in Headers */,
+				633D8FE61F239F9500BAFAC9 /* KUSChatPlaceholderTableViewCell.h in Headers */,
+				63B9CDB21F0890B400120F3E /* Kustomer.h in Headers */,
+				D61F92822174DF8700C65B9F /* KUSScheduleDataSource.h in Headers */,
+				DD66731723E23129003600A7 /* KUSAttachmentViewer.h in Headers */,
+				637177AD1F46A28300A7F79C /* KUSUser.h in Headers */,
+				0A043911234BD3CA006ADE3F /* RTSpinKitAnimating.h in Headers */,
+				C7788105216CDBED006375BC /* KUSMLFormValue.h in Headers */,
+				637177A91F46A0DA00A7F79C /* KUSUserDataSource.h in Headers */,
+				636531A11F1BBA7C00433A50 /* KUSSessionsViewController.h in Headers */,
+				C75D3D832271836C00AAB0D7 /* KUSChatMessagesDataSource_Private.h in Headers */,
+				D6C236542191FC7E00F34CBE /* KUSSessionQueue.h in Headers */,
+				63A4EDD71F097D8F00EA3852 /* Kustomer_Private.h in Headers */,
+				633D8FE21F2309E700BAFAC9 /* KUSChatSessionTableViewCell.h in Headers */,
+				63BF9C651FE9564300E30C73 /* KUSForm.h in Headers */,
+				6334BE361F0C4A1300258DAF /* KUSChatSession.h in Headers */,
+				6334BE541F0C66E200258DAF /* KUSImage.h in Headers */,
+				D6C236502191FC3A00F34CBE /* KUSSessionQueueDataSource.h in Headers */,
+				630236C91FD84107008B4EA8 /* KUSUserDefaults.h in Headers */,
+				D62F3A2620C1353200FBEA61 /* KUSClosedChatView.h in Headers */,
+				63EDF3D91F415797000345D8 /* KUSTrackingTokenDataSource.h in Headers */,
+				632EA5D51FF82A5900C4681C /* KUSNYTImagePhoto.h in Headers */,
+				D61F927F2174D94700C65B9F /* KUSSchedule.h in Headers */,
+				0A04390F234BD398006ADE3F /* RTSpinKitUtils.h in Headers */,
+				C707369822527A4800F9E3BB /* KUSVolumeControlTimerManager.h in Headers */,
+				0A04390B234BD2AA006ADE3F /* RTSpinKitThreeBounceAnimation.h in Headers */,
+				6371779D1F43EDDC00A7F79C /* KUSAvatarImageView.h in Headers */,
+				63DC734D1F5336BA00683DE8 /* KUSNYTChatMessagePhoto.h in Headers */,
+				DDF6530E23E4B297004B4D5B /* KUSMediaAttachment.h in Headers */,
+				632EA5CD1FF70CD400C4681C /* KUSOptionPickerView.h in Headers */,
+				63006E571F92F8AC00C2BC9D /* KUSLog.h in Headers */,
+				D6BB946120A18537001AFCB6 /* KUSLocalization.h in Headers */,
+				633D8FF21F23E07E00BAFAC9 /* KUSChatSessionsDataSource.h in Headers */,
+				C7FAC30C224B5FA300D6D659 /* KUSReachability.h in Headers */,
+				6334BE4D1F0C600F00258DAF /* KUSAttributionToolbar.h in Headers */,
+				DD66731023E230F4003600A7 /* KUSQLPreviewItem.h in Headers */,
+				636531B61F1DB73B00433A50 /* KUSColor.h in Headers */,
+				633FADC41F26E7630060B4A6 /* KUSTextView.h in Headers */,
+				632665DD1F945DB800ED1AB2 /* KUSSessionsTableView.h in Headers */,
+				C7C6006B225DDE4A00899FB1 /* KUSSatisfactionForm.h in Headers */,
+				C730E15320E5179200EF2AB8 /* KUSEndChatButtonView.h in Headers */,
+				63EDF3D51F414A67000345D8 /* KUSRequestManager.h in Headers */,
+				0A043906234BD276006ADE3F /* RTSpinKitView.h in Headers */,
+				C77880FB216CDBAC006375BC /* KUSMLFormValuesPickerCollectionViewCell.h in Headers */,
+				6334BE491F0C5E3F00258DAF /* KUSNavigationController.h in Headers */,
+				63BF9C6D1FE95DCA00E30C73 /* KUSTeam.h in Headers */,
+				632EA5D91FF8952500C4681C /* KUSFadingButton.h in Headers */,
+				631E3F3B1F526C6000FAA33F /* KnowledgeBaseViewController.h in Headers */,
+				6334BE321F0C487400258DAF /* KUSChatSettings.h in Headers */,
+				6334BE3E1F0C4EBE00258DAF /* KUSCustomer.h in Headers */,
+				6394DFF91FA57C21006F2899 /* KUSCustomerDescription.h in Headers */,
+				C714124E2265E5A300CD7C7A /* KUSEditFeedbackTableViewCell.h in Headers */,
+				630BA344203101C700C80CD2 /* KUSClientActivityManager.h in Headers */,
+				636531A91F1BBCCD00433A50 /* KUSChatViewController.h in Headers */,
+				63EDF3D11F412503000345D8 /* KUSUserSession.h in Headers */,
+				C78406F7225F8E7F003BDE6D /* KUSSatisfactionResponse.h in Headers */,
+				6334BE2E1F0C43BE00258DAF /* KUSTrackingToken.h in Headers */,
+				63270E991F4A717600E25BF5 /* KUSDate.h in Headers */,
+				63C7626B203E71BD00A12BDD /* KUSTimer.h in Headers */,
+				63270E951F4A1FA200E25BF5 /* KUSPushClient.h in Headers */,
+				6334BE2A1F0C3E8600258DAF /* KUSModel.h in Headers */,
+				632665E11F945DC700ED1AB2 /* KUSChatTableView.h in Headers */,
+				636531B21F1C593D00433A50 /* KUSChatMessageTableViewCell.h in Headers */,
+				C7788107216CDBED006375BC /* KUSMLNode.h in Headers */,
+				630BA348203107CF00C80CD2 /* KUSClientActivityDataSource.h in Headers */,
+				D61F92852174EF7200C65B9F /* KUSHoliday.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63B9CD901F088E8800120F3E /* Kustomer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B9CDA51F088E8800120F3E /* Build configuration list for PBXNativeTarget "Kustomer" */;
+			buildPhases = (
+				A92203A7471A7BC14D889C8F /* [CP] Check Pods Manifest.lock */,
+				63B9CD8C1F088E8800120F3E /* Sources */,
+				63B9CD8D1F088E8800120F3E /* Frameworks */,
+				63B9CD8E1F088E8800120F3E /* Headers */,
+				63B9CD8F1F088E8800120F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kustomer;
+			productName = Kustomer;
+			productReference = 63B9CD911F088E8800120F3E /* Kustomer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63B9CD991F088E8800120F3E /* KustomerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B9CDA81F088E8800120F3E /* Build configuration list for PBXNativeTarget "KustomerTests" */;
+			buildPhases = (
+				6C8972964DB14541A1A52903 /* [CP] Check Pods Manifest.lock */,
+				63B9CD961F088E8800120F3E /* Sources */,
+				63B9CD971F088E8800120F3E /* Frameworks */,
+				63B9CD981F088E8800120F3E /* Resources */,
+				85D805746E59AC9A605446B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B9CD9D1F088E8800120F3E /* PBXTargetDependency */,
+			);
+			name = KustomerTests;
+			productName = KustomerTests;
+			productReference = 63B9CD9A1F088E8800120F3E /* KustomerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63B9CDB71F089BF000120F3E /* KustomerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B9CDCE1F089BF000120F3E /* Build configuration list for PBXNativeTarget "KustomerExample" */;
+			buildPhases = (
+				7EFAB52A05029F56315F77F8 /* [CP] Check Pods Manifest.lock */,
+				63B9CDB41F089BF000120F3E /* Sources */,
+				63B9CDB51F089BF000120F3E /* Frameworks */,
+				63B9CDB61F089BF000120F3E /* Resources */,
+				63B9CDE21F095AA200120F3E /* Embed Frameworks */,
+				A847877DCF532CA33AEC7571 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B9CDE11F095AA200120F3E /* PBXTargetDependency */,
+			);
+			name = KustomerExample;
+			productName = KustomerExample;
+			productReference = 63B9CDB81F089BF000120F3E /* KustomerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B9CD881F088E8800120F3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Kustomer;
+				TargetAttributes = {
+					63B9CD901F088E8800120F3E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+					63B9CD991F088E8800120F3E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					63B9CDB71F089BF000120F3E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 63P2N3D9XL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63B9CD8B1F088E8800120F3E /* Build configuration list for PBXProject "Kustomer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ur,
+				fr,
+				af,
+				fi,
+				fil,
+				bg,
+				de,
+				it,
+				is,
+				sk,
+				"fr-CA",
+				hu,
+				lt,
+				sl,
+				"en-CA",
+				sr,
+				"en-US",
+				sq,
+				ja,
+				sv,
+				hr,
+				ru,
+				"sr-ME",
+				lv,
+				"pt-BR",
+				nl,
+				tr,
+				hi,
+				cs,
+				el,
+				da,
+				"en-GB",
+				es,
+				ro,
+				uk,
+				"zh-Hant",
+				bs,
+				ko,
+				pt,
+				"es-ES",
+				ka,
+				th,
+				ca,
+				pl,
+				vi,
+				et,
+				"zh-Hans",
+				id,
+			);
+			mainGroup = 63B9CD871F088E8800120F3E;
+			productRefGroup = 63B9CD921F088E8800120F3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B9CD901F088E8800120F3E /* Kustomer */,
+				63B9CD991F088E8800120F3E /* KustomerTests */,
+				63B9CDB71F089BF000120F3E /* KustomerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B9CD8F1F088E8800120F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DC73621F57B44900683DE8 /* message_received.m4a in Resources */,
+				12AD2A7524D32AA4005E562E /* Images.xcassets in Resources */,
+				D6181AC920D92DB100CE7377 /* Strings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B9CD981F088E8800120F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B9CDB61F089BF000120F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B9CDCA1F089BF000120F3E /* LaunchScreen.storyboard in Resources */,
+				63B9CDC71F089BF000120F3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C8972964DB14541A1A52903 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KustomerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EFAB52A05029F56315F77F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KustomerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85D805746E59AC9A605446B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KustomerTests/Pods-KustomerTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/NYTPhotoViewer/NYTPhotoViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/TSMarkdownParser/TSMarkdownParser.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/libPusher/Pusher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYTPhotoViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSMarkdownParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pusher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KustomerTests/Pods-KustomerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A847877DCF532CA33AEC7571 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KustomerExample/Pods-KustomerExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/NYTPhotoViewer/NYTPhotoViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/TSMarkdownParser/TSMarkdownParser.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/libPusher/Pusher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYTPhotoViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSMarkdownParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pusher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KustomerExample/Pods-KustomerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A92203A7471A7BC14D889C8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kustomer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B9CD8C1F088E8800120F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F61A7A1FF99D3100E56766 /* KUSUpload.m in Sources */,
+				63DC73601F57B1AC00683DE8 /* KUSAudio.m in Sources */,
+				630BA349203107CF00C80CD2 /* KUSClientActivityDataSource.m in Sources */,
+				D61F92802174D94700C65B9F /* KUSSchedule.m in Sources */,
+				633D8FDF1F22EDB800BAFAC9 /* KUSInputBar.m in Sources */,
+				C707369A22527A6E00F9E3BB /* KUSVolumeControlTimerManager.m in Sources */,
+				D6C236552191FC7E00F34CBE /* KUSSessionQueue.m in Sources */,
+				D6BB946220A18537001AFCB6 /* KUSLocalization.m in Sources */,
+				D62F3A2720C1353200FBEA61 /* KUSClosedChatView.m in Sources */,
+				63D472921F70AACC00C947F2 /* KUSNotificationWindow.m in Sources */,
+				63D9C17E1F2F705100999183 /* KUSChatSettingsDataSource.m in Sources */,
+				637177AE1F46A28300A7F79C /* KUSUser.m in Sources */,
+				63B9CDB31F0890B400120F3E /* Kustomer.m in Sources */,
+				63F61A7E1FFAC86400E56766 /* KUSMultipleAvatarsView.m in Sources */,
+				630236CA1FD84107008B4EA8 /* KUSUserDefaults.m in Sources */,
+				6334BE2B1F0C3E8600258DAF /* KUSModel.m in Sources */,
+				63BF9C721FEB57B400E30C73 /* KUSFormDataSource.m in Sources */,
+				6334BE4A1F0C5E3F00258DAF /* KUSNavigationController.m in Sources */,
+				D6DBA3672267930300276475 /* KUSTypingIndicatorTableViewCell.m in Sources */,
+				639FBBBE1F5F98110065AB0B /* KUSNewSessionButton.m in Sources */,
+				C787065E20EA3D7B00D54AE2 /* KUSChatEndedTableViewCell.m in Sources */,
+				636531A21F1BBA7C00433A50 /* KUSSessionsViewController.m in Sources */,
+				6334BE3F1F0C4EBE00258DAF /* KUSCustomer.m in Sources */,
+				6334BE611F0C9B5100258DAF /* KUSPaginatedResponse.m in Sources */,
+				6334BE331F0C487400258DAF /* KUSChatSettings.m in Sources */,
+				63EDF3DA1F415797000345D8 /* KUSTrackingTokenDataSource.m in Sources */,
+				632665DE1F945DB800ED1AB2 /* KUSSessionsTableView.m in Sources */,
+				630BA345203101C700C80CD2 /* KUSClientActivityManager.m in Sources */,
+				C7FAC311224B633500D6D659 /* KUSStatsManager.m in Sources */,
+				6334BE4E1F0C600F00258DAF /* KUSAttributionToolbar.m in Sources */,
+				636531A61F1BBAA100433A50 /* KustomerViewController.m in Sources */,
+				630BA33F2030040400C80CD2 /* KUSClientActivity.m in Sources */,
+				63BF9C761FEB5C3900E30C73 /* KUSTeamsDataSource.m in Sources */,
+				63BF9C6E1FE95DCA00E30C73 /* KUSTeam.m in Sources */,
+				C78406F9225F8EA0003BDE6D /* KUSSatisfactionResponse.m in Sources */,
+				6334BE551F0C66E200258DAF /* KUSImage.m in Sources */,
+				0A04390E234BD398006ADE3F /* RTSpinKitUtils.m in Sources */,
+				DDF6531023E4B2C6004B4D5B /* KUSMediaAttachment.m in Sources */,
+				63035BDA1F2EBCD400FBBF66 /* KUSText.m in Sources */,
+				C71412502265E5CE00CD7C7A /* KUSEditFeedbackTableViewCell.m in Sources */,
+				633FADC51F26E7630060B4A6 /* KUSTextView.m in Sources */,
+				632EA5DA1FF8952500C4681C /* KUSFadingButton.m in Sources */,
+				D61F92862174EF7200C65B9F /* KUSHoliday.m in Sources */,
+				C7FAC309224B5E3500D6D659 /* KUSReachabilityManager.m in Sources */,
+				631E3F361F52497A00FAA33F /* KUSEmailInputView.m in Sources */,
+				637177AA1F46A0DA00A7F79C /* KUSUserDataSource.m in Sources */,
+				D6C236512191FC3A00F34CBE /* KUSSessionQueueDataSource.m in Sources */,
+				0A043907234BD276006ADE3F /* RTSpinKitView.m in Sources */,
+				63EDF3D61F414A67000345D8 /* KUSRequestManager.m in Sources */,
+				632EA5CE1FF70CD400C4681C /* KUSOptionPickerView.m in Sources */,
+				63D9C18C1F31761B00999183 /* KUSBaseViewController.m in Sources */,
+				63BF9C661FE9564300E30C73 /* KUSForm.m in Sources */,
+				C7788100216CDBCC006375BC /* KUSMLFormValuesPickerView.m in Sources */,
+				636531B71F1DB73B00433A50 /* KUSColor.m in Sources */,
+				C7C6849E22608EF3008E335D /* KUSRatingView.m in Sources */,
+				63C7626C203E71BD00A12BDD /* KUSTimer.m in Sources */,
+				63D472961F71561100C947F2 /* KUSDelegateProxy.m in Sources */,
+				633D8FEE1F23C98200BAFAC9 /* KUSPaginatedDataSource.m in Sources */,
+				6334BE2F1F0C43BE00258DAF /* KUSTrackingToken.m in Sources */,
+				633D8FE31F2309E700BAFAC9 /* KUSChatSessionTableViewCell.m in Sources */,
+				636531B31F1C593D00433A50 /* KUSChatMessageTableViewCell.m in Sources */,
+				636F75F71FDD89A30043B821 /* KUSChatAttachment.m in Sources */,
+				C78406FB225F989A003BDE6D /* KUSSatisfactionResponseDataSource.m in Sources */,
+				DD66731823E23129003600A7 /* KUSAttachmentViewer.m in Sources */,
+				63270E961F4A1FA200E25BF5 /* KUSPushClient.m in Sources */,
+				63EDF3D21F412503000345D8 /* KUSUserSession.m in Sources */,
+				D6DBA35F226711B200276475 /* KUSTypingIndicator.m in Sources */,
+				633D8FE71F239F9500BAFAC9 /* KUSChatPlaceholderTableViewCell.m in Sources */,
+				636531AA1F1BBCCD00433A50 /* KUSChatViewController.m in Sources */,
+				C702A328230D98470052EBB0 /* ViewController.m in Sources */,
+				C77880FC216CDBAC006375BC /* KUSMLFormValuesPickerCollectionViewCell.m in Sources */,
+				63270E9A1F4A717600E25BF5 /* KUSDate.m in Sources */,
+				C730E14D20E5159D00EF2AB8 /* KUSEndChatButtonView.m in Sources */,
+				D61F927C2174D0B300C65B9F /* KUSScheduleDataSource.m in Sources */,
+				0A04390A234BD2AA006ADE3F /* RTSpinKitThreeBounceAnimation.m in Sources */,
+				632EA5D61FF82A5900C4681C /* KUSNYTImagePhoto.m in Sources */,
+				632665E21F945DC700ED1AB2 /* KUSChatTableView.m in Sources */,
+				6334BE371F0C4A1300258DAF /* KUSChatSession.m in Sources */,
+				C7C6849A22606853008E335D /* KUSSatisfactionFormTableViewCell.m in Sources */,
+				C7C6006D225DE04B00899FB1 /* KUSSatisfactionForm.m in Sources */,
+				631E3F3C1F526C6000FAA33F /* KnowledgeBaseViewController.m in Sources */,
+				633FADBD1F258C2E0060B4A6 /* KUSChatMessagesDataSource.m in Sources */,
+				63DC734E1F5336BA00683DE8 /* KUSNYTChatMessagePhoto.m in Sources */,
+				632EA5D21FF8168700C4681C /* KUSImageAttachmentCollectionViewCell.m in Sources */,
+				633D8FF31F23E07E00BAFAC9 /* KUSChatSessionsDataSource.m in Sources */,
+				DD66731923E23129003600A7 /* KUSAttachmentViewerNavigationController.m in Sources */,
+				624D7CBE1F7876440039BE90 /* KUSNavigationBarView.m in Sources */,
+				C7788108216CDBED006375BC /* KUSMLNode.m in Sources */,
+				C7788106216CDBED006375BC /* KUSMLFormValue.m in Sources */,
+				6394DFFA1FA57C21006F2899 /* KUSCustomerDescription.m in Sources */,
+				6334BE3B1F0C4B3D00258DAF /* KUSChatMessage.m in Sources */,
+				C7FAC30D224B5FA300D6D659 /* KUSReachability.m in Sources */,
+				63BF9C6A1FE9565200E30C73 /* KUSFormQuestion.m in Sources */,
+				D64E3B212193058700774745 /* KUSSessionQueuePollingManager.m in Sources */,
+				63EB38551F2D83430020F38B /* KUSObjectDataSource.m in Sources */,
+				6371779E1F43EDDC00A7F79C /* KUSAvatarImageView.m in Sources */,
+				63D529891FB7F0A500B1B004 /* KUSPermissions.m in Sources */,
+				DD66731123E230F4003600A7 /* KUSQLPreviewItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B9CD961F088E8800120F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B9CDA01F088E8800120F3E /* KustomerTests.m in Sources */,
+				C70A6ACE2212EC53004B4F9C /* KUSDescribeConversationTests.m in Sources */,
+				C7D98AA5227083270067DB7D /* KUSSatisfactionFormTest.m in Sources */,
+				D6FE45C92268A118002CF416 /* KUSTypingIndicatorTest.m in Sources */,
+				630BA341203005F500C80CD2 /* KUSClientActivityTest.m in Sources */,
+				6398E04F1FC2316F00001050 /* KUSChatSettingsTest.m in Sources */,
+				C755F4A82258D8E000613F17 /* KUSTimerTests.m in Sources */,
+				636EA62A1F9D12BE00340B66 /* KUSDateTests.m in Sources */,
+				C7D98AA72270834E0067DB7D /* KUSSatisfactionResponseTest.m in Sources */,
+				D6BB946620A1AA5F001AFCB6 /* KUSLocalizationTest.m in Sources */,
+				636EA6271F9CF76100340B66 /* KUSRequestManagerTests.m in Sources */,
+				636EA6301F9D4FD100340B66 /* KUSDelegateProxyTests.m in Sources */,
+				636EA62C1F9D309C00340B66 /* KUSChatMessageTests.m in Sources */,
+				C77A3234225B67F100187C70 /* KUSVCTimerManagerTests.m in Sources */,
+				636EA62E1F9D3EC100340B66 /* KUSUserSessionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B9CDB41F089BF000120F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B9CDC21F089BF000120F3E /* ViewController.m in Sources */,
+				63B9CDBF1F089BF000120F3E /* AppDelegate.m in Sources */,
+				63B9CDBC1F089BF000120F3E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63B9CD9D1F088E8800120F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B9CD901F088E8800120F3E /* Kustomer */;
+			targetProxy = 63B9CD9C1F088E8800120F3E /* PBXContainerItemProxy */;
+		};
+		63B9CDE11F095AA200120F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B9CD901F088E8800120F3E /* Kustomer */;
+			targetProxy = 63B9CDE01F095AA200120F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63B9CDC81F089BF000120F3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B9CDC91F089BF000120F3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63B9CDA31F088E8800120F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63B9CDA41F088E8800120F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63B9CDA61F088E8800120F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AB306DD5AA4895D0C92102 /* Pods-Kustomer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 034;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.3.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kustomer.Kustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63B9CDA71F088E8800120F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F91D0EF26D550F6FA48F5E6 /* Pods-Kustomer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 034;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.3.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kustomer.Kustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63B9CDA91F088E8800120F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAEBB4868A9AF9DB8C939E87 /* Pods-KustomerTests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KustomerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kustomer.KustomerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63B9CDAA1F088E8800120F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B9C7F846CD493168479E0A /* Pods-KustomerTests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KustomerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kustomer.KustomerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63B9CDCC1F089BF000120F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479720192A1054576AB58BBA /* Pods-KustomerExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63P2N3D9XL;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = KustomerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kustomer.KustomerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63B9CDCD1F089BF000120F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448086DB570B5537AB2DFA4E /* Pods-KustomerExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63P2N3D9XL;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = KustomerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kustomer.KustomerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63B9CD8B1F088E8800120F3E /* Build configuration list for PBXProject "Kustomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B9CDA31F088E8800120F3E /* Debug */,
+				63B9CDA41F088E8800120F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B9CDA51F088E8800120F3E /* Build configuration list for PBXNativeTarget "Kustomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B9CDA61F088E8800120F3E /* Debug */,
+				63B9CDA71F088E8800120F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B9CDA81F088E8800120F3E /* Build configuration list for PBXNativeTarget "KustomerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B9CDA91F088E8800120F3E /* Debug */,
+				63B9CDAA1F088E8800120F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B9CDCE1F089BF000120F3E /* Build configuration list for PBXNativeTarget "KustomerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B9CDCC1F089BF000120F3E /* Debug */,
+				63B9CDCD1F089BF000120F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63B9CD881F088E8800120F3E /* Project object */;
+}
